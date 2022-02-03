@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.Getting started": {
+    "message": "Getting started",
+    "description": "The label for category Getting started in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Form Fields": {
+    "message": "Form Fields",
+    "description": "The label for category Form Fields in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Style Editor": {
+    "message": "Style Editor",
+    "description": "The label for category Style Editor in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Integrations": {
+    "message": "Integrations",
+    "description": "The label for category Integrations in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Others": {
+    "message": "Others",
+    "description": "The label for category Others in sidebar someSidebar"
+  }
+}

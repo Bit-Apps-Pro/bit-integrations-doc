@@ -87,3 +87,5 @@ yarn.lock
 *.lock
 .yarn/*
 .yarnrc.yml
+.pnp.loader.mjs
+.pnp.cjs

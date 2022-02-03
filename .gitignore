@@ -87,3 +87,4 @@ yarn.lock
 *.lock
 .yarn/*
 .yarnrc.yml
+package-lock.json

@@ -89,3 +89,4 @@ yarn.lock
 .yarnrc.yml
 .pnp.loader.mjs
 .pnp.cjs
+package-lock.json

@@ -12,7 +12,9 @@ export default function Image({ src, w, h, alt }) {
     })
   }, [])
 
-  if (process.env.NODE_ENV === 'developme nt') {
+  if (src.match(/[A-Z]|\s/g)) return <b style={{ background: '#ff513a' }}><i>Error: Image path should not contain any upper-case letter or white space. </i></b>
+
+  if (process.env.NODE_ENV === 'development') {
     return <div >
       <div className={`img-backdrop ${!modal && 'd-non'}`} onClick={() => setmodal(false)} onKeyPress={() => setmodal(false)} tabIndex="0" role="button" aria-label="image preview close" />
       <img className={`doc-img ${modal ? 'zoom-in' : ''}`} loading="lazy" src={`/img/${src}.png`} width={w} height={h} alt={alt} onClick={() => setmodal(true)} onKeyPress={() => setmodal(true)} />

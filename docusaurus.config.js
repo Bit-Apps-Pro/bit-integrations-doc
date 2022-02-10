@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Bit-Apps-Pro',
-  projectName: 'bit-integrations-documentation',
+  projectName: 'bit-integrations-doc',
   themeConfig: {
     colorMode: {
       defaultMode: 'light',

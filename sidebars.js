@@ -8,6 +8,7 @@ module.exports = {
       Trigger: [
         "Trigger/contact-form7",
         "Trigger/eform",
+        "Trigger/elementor-form",
         "Trigger/fluent-form",
         "Trigger/forminator",
         "Trigger/gravity-forms",
@@ -15,6 +16,7 @@ module.exports = {
         "Trigger/piotnet-forms",
         "Trigger/wpforms",
         "Trigger/wsform",
+        "Trigger/user-registration",
       ],
     },
     {
@@ -29,6 +31,8 @@ module.exports = {
         "Actions/zohobigin",
         "Actions/zohocampaign",
         "Actions/zohomarketinghub",
+        "Actions/email",
+        "Actions/elastic-email",
       ],
     },
     // "Response Management/response-management",

@@ -13,6 +13,7 @@ export default function Image({ src, w, h, alt }) {
   }, [])
 
   if (src.match(/[A-Z]|\s/g)) return <b style={{ background: '#ff513a' }}><i>Error: Image path should not contain any upper-case letter or white space. </i></b>
+  if (src[0] === '/') return <b style={{ background: '#ff513a' }}><i>Error: Image path should not start with a slash. </i></b>
 
   if (process.env.NODE_ENV === 'development') {
     return <div >

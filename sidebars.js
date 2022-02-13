@@ -1,7 +1,10 @@
 module.exports = {
   someSidebar: [
     {
-      "Getting started": ["Getting Started/welcome"],
+      "Getting started": [
+        "Getting Started/welcome",
+        "Getting Started/install"
+      ],
     },
    "Setting/setting-management",
     {

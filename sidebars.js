@@ -37,5 +37,5 @@ module.exports = {
     },
     // "Response Management/response-management",
   ],
-  // changelog: ["changelog/overview", "changelog/prooverview"],
+  changelog: ["changelog/overview", "changelog/prooverview"],
 };

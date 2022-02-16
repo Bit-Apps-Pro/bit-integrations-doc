@@ -76,7 +76,15 @@ module.exports = {
           items: [
             {
               label: 'Install & Activate',
-              to: '/',
+              to: 'install-activate-bit-integrations',
+            },
+            {
+              label: 'Trigger',
+              to: 'trigger/trigger-wpcf7',
+            },
+            {
+              label: 'Actions',
+              to: 'integrations/wpcf7-activecampaign',
             },
           ],
         },
@@ -98,7 +106,7 @@ module.exports = {
           items: [
             {
               label: 'Changelog',
-              to: '/',
+              to: 'changelog/bit-integrations-changelog-timeline/',
             },
             {
               label: 'GitHub',

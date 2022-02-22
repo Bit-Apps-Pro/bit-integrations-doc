@@ -35,6 +35,7 @@ module.exports = {
         "actions/getgist",
         "actions/mailchimp",
         "actions/pods",
+        "actions/post-creation",
         "actions/rapidmail",
         "actions/telegram",
         "actions/zohobigin",

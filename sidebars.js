@@ -31,6 +31,7 @@ module.exports = {
         "actions/encharge",
         "actions/email",
         "actions/elastic-email",
+        "actions/fluentcrm",
         "actions/getgist",
         "actions/mailchimp",
         "actions/rapidmail",

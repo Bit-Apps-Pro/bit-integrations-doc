@@ -1,0 +1,51 @@
+---
+id: email
+title: Authorization Process With Email
+sidebar_label: Email
+slug: /integrations/email
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+The function of an **email notification** is to notify the user that the form/task has been submitted successfully.
+
+To set up the email notification feature follow the below steps-
+
+1. Search & Select **Mail** from the actions pages
+
+
+2. Integration Name: Set the proper integration name Default it's taken **“Mail Integrations”**.
+
+Other fields you have to set are:
+
+  ✔ ***From:*** Set the email address from where you want to send mail to recipients.
+
+  ✔ ***To:*** Here you have to input the email address where you want to send the email notification. Also you can select the “Form Fields” to fetch the data directly from the frontend.
+
+  ✔ ***CC & BCC field:*** Then you have chosen the CC & BCC field if you want to send the notification to multiple email addresses.
+
+  ✔ ***Reply To:*** Set the email address where the user will send the reply message in response to your email notification.
+
+  ✔ ***Attachment:*** You can send an attachment if you have any file upload field on the form
+
+  ✔ ***Subject:*** You can manually enter the subject line and place dynamic fields in the subject line.
+
+  ✔ ***Template:*** 
+
+  - You can put dynamic field names email body
+  - You can allow HTML and CSS for styling
+  - You can copy and paste previous design template another editor
+  - You can edit styling by the help of rich text editor
+
+  <Image src="actions/email/mail-template" alt="Email Autoresponder" w="1020" h="300" />
+
+3. After giving all the required information, click on Save. Now ready to send the email notification you created.
+
+4. We have an option in every integration "Timeline," where you can check integration success or error status.
+
+  <Image src="actions/email/select-timeline" alt="Email Autoresponder" w="1020" h="300" />
+  <Image src="actions/email/integration-log" alt="Email Autoresponder" w="1020" h="300" />
+
+:::info
+At last, you need to make sure that the **SMTP** configuration is correct, to send the email without any spamming.
+:::

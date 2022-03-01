@@ -23,4 +23,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: deploying
-        run: npm run deployy
+        run: |
+          npm ci
+          npm run deployy

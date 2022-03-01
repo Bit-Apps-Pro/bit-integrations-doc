@@ -32,5 +32,6 @@ jobs:
         
       - name: deploy
         run: |
-         GIT_USER=arif-un GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} yarn deployy
+          echo ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER=arif-un GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} yarn deployy
        

@@ -25,4 +25,4 @@ jobs:
       - name: deploying
         run: |
           npm install
-          npm run deployy
+          npm run deploy

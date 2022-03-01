@@ -20,11 +20,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       # Runs a single command using the runners shell
-      - name: deploying
+      - name: yarn install
         run: |
-          npm install
+          yarn install
           git config --global user.email "arifunctg@gmail.com"
           git config --global user.name "Arif Uddin"
-          npm run deploy
+        
+      - name: deploy
+        run: |
+          yarn deploy
+       

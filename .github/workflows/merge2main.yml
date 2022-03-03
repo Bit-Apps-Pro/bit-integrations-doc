@@ -9,12 +9,18 @@ jobs:
   merge-branch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
 
-      - name: Merge staging -> main
-        uses: devmasx/merge-branch@master
-        with:
-          type: now
-          target_branch: main
-          github_token: ${{ github.token }}
-
+      - name: Set Git config
+        run: |
+          git config --local user.email "${GITHUB_ACTOR}"
+          git config --local user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+          
+      - name: Merge master back to dev
+        run: |
+          git pull origin main
+          git push
+          git checkout main
+          git pull origin mizan
+          git pull origin wayes
+          git push

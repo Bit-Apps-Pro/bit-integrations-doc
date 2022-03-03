@@ -11,5 +11,7 @@ jobs:
       
       
       - name: Push
-        run:  ${{ steps.myref.outputs.branch }}
+        run: |
+          git checkout main
+          git push
     

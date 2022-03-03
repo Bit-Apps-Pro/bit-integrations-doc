@@ -1,4 +1,3 @@
-
 name: Merge other brach to master
 on:
   push:
@@ -9,16 +8,15 @@ jobs:
   merge-branch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
 
-      - name: Set Git config
-        run: |
-          git config --local user.email "${GITHUB_ACTOR}"
-          git config --local user.name "${GITHUB_ACTOR}@users.noreply.github.com"
-          
-      - name: Merge master back to dev
-        run: |
-          git checkout main
-          git pull origin mizan --no-ff
-          git pull origin wayes --no-ff
-          git push
+      - name: Merge staging -> main
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: main
+          github_token: ${{ github.token }}
+      
+      - name: push
+        run: git push origin main
+    

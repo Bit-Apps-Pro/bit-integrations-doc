@@ -9,13 +9,17 @@ module.exports = {
    "Setting/setting-management",
     {
       Trigger: [
+        "Trigger/beaver-builder",
+        "Trigger/bricks",
         "Trigger/contact-form7",
+        "Trigger/divi",
         "Trigger/eform",
         "Trigger/elementor-form",
         "Trigger/everest-forms",
         "Trigger/fluent-form",
         "Trigger/forminator",
         "Trigger/gravity-forms",
+        "Trigger/kali-forms",
         "Trigger/ninja-forms",
         "Trigger/piotnet-forms",
         "Trigger/user-registration",

@@ -39,6 +39,7 @@ module.exports = {
         "actions/rapidmail",
         "actions/slack",
         "actions/telegram",
+        "actions/trello",
         "actions/zohobigin",
         "actions/zohocampaign",
         "actions/zohocrm",

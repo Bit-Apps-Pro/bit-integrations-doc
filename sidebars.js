@@ -46,6 +46,7 @@ module.exports = {
         "actions/pods",
         "actions/post-creation",
         "actions/rapidmail",
+        "actions/registration",
         "actions/sendinblue",
         "actions/trello",
         "actions/zohocampaign",

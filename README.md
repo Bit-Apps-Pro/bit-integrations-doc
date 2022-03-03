@@ -15,6 +15,7 @@ Bit Integrations lets you connect popular WordPress Form plugins to apps like Ma
 
 📢 **You can avail this plugin free if you tag us as your Zoho Partner. Read the details here - [Bit Apps products giveaway](https://www.bitapps.pro/zoho-partner-tag)**
 
+
 📢 **Join our new community [Bit Integrations](https://www.facebook.com/groups/formsintegrations) & get updates of our new plugin.**
 
 📢 **We are open for freelance work/custom development for this plugin. [Connect](https://bitapps.pro/contact) with us for further information.**

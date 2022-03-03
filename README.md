@@ -40,7 +40,6 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
     
 5.  Gravity Form
     
-
 ### ✔ 3rd Party applications/ Other WP Plugins
 
 1.  Zoho CRM

@@ -27,6 +27,7 @@ Impress your customers and capture more leads by connecting your WordPress forms
 
 This plugin works as a ***medium*** between two platforms. We can categorize the form plugins as **Sender** & the 3rd Party applications or other WP plugins as a **Receiver**. Form Integration is a system that allows you to integrate your form with your desired 3rd Party applications with ease. With **Form Integration**, the form submissions are sent directly to the mapped field of other applications. Popular WordPress form plugins are used as sender & CRM tools, Email Marketing tools, Project Management tools, Data collection tools, and Other WordPress plugins are used as receivers.  
 
+
 ### ✔ The form Plugin are:
 
 1.  Bit Form

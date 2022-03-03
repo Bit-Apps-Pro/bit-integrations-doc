@@ -27,7 +27,6 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
 ### ✔ The form Plugin are:
 
 1.  Bit Form
-    
 2.  WP Form
     
 3.  Fluent Form

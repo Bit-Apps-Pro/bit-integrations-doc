@@ -18,9 +18,9 @@ jobs:
           
       - name: Merge master back to dev
         run: |
-          git pull origin main
+          git pull origin main --no-ff
           git push
           git checkout main
-          git pull origin mizan
-          git pull origin wayes
+          git pull origin mizan --no-ff
+          git pull origin wayes --no-ff
           git push

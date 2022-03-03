@@ -52,6 +52,7 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
 
 ## ⚡ Key Features:
 
+
 1.  Easy integration set up with a few clicks. Don't require any coding skills.
     
 2.  You can create multiple integrations with a variety of applications under one form.

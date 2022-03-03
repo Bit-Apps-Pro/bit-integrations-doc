@@ -56,7 +56,7 @@ module.exports = {
         "actions/zohorecruit",
       ],
     },
-    // "Response Management/response-management",
   ],
+  
   changelog: ["changelog/overview", "changelog/prooverview"],
 };

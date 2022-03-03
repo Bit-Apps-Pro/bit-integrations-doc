@@ -1,4 +1,3 @@
-
 name: Merge other brach to master
 on:
   push:
@@ -17,4 +16,7 @@ jobs:
           type: now
           target_branch: main
           github_token: ${{ github.token }}
-
+      
+      - name: push
+        run: git push origin main
+    

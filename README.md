@@ -19,6 +19,7 @@ Bit Integrations lets you connect popular WordPress Form plugins to apps like Ma
 
 📢 **Join our new community [Bit Integrations](https://www.facebook.com/groups/formsintegrations) & get updates of our new plugin.**
 
+
 📢 **We are open for freelance work/custom development for this plugin. [Connect](https://bitapps.pro/contact) with us for further information.**
 
 Impress your customers and capture more leads by connecting your WordPress forms with other popular platforms WP Plugin or 3rd Party App like MailChimp, Zoho CRM, and Google Sheets – to name a few. **Bit Integrations** Plugin is a WordPress plugin that connects two different platforms. It allows you to send any WordPress form submission to one or more third-party applications.
@@ -26,6 +27,7 @@ Impress your customers and capture more leads by connecting your WordPress forms
 ## ♻ How does this plugin work?
 
 This plugin works as a ***medium*** between two platforms. We can categorize the form plugins as **Sender** & the 3rd Party applications or other WP plugins as a **Receiver**. Form Integration is a system that allows you to integrate your form with your desired 3rd Party applications with ease. With **Form Integration**, the form submissions are sent directly to the mapped field of other applications. Popular WordPress form plugins are used as sender & CRM tools, Email Marketing tools, Project Management tools, Data collection tools, and Other WordPress plugins are used as receivers.  
+
 
 ### ✔ The form Plugin are:
 
@@ -39,7 +41,6 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
     
 5.  Gravity Form
     
-
 ### ✔ 3rd Party applications/ Other WP Plugins
 
 1.  Zoho CRM

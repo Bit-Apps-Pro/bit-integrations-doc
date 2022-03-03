@@ -1,5 +1,6 @@
 <img src="https://docs.bit-integrations.bitapps.pro/img/logo.svg" alt="bit-form-doc-logo" height="150">
 
+
 #  WP Bit Integrations Documentation
 
 #### This repository contains Bit Integrations Documentation. Feel free to suggest edit to improve documentation by sending a pull request.

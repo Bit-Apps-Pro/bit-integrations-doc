@@ -56,5 +56,6 @@ module.exports = {
       ],
     },
   ],
+  
   changelog: ["changelog/overview", "changelog/prooverview"],
 };

@@ -56,6 +56,8 @@ module.exports = {
         "actions/zohorecruit",
       ],
     },
+    "changelog/overview",
+    "bit-integration-feature-request"
   ],
   
   

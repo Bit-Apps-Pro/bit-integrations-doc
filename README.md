@@ -116,6 +116,7 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
     [#2] updated database table.
     [#3] some bug in webhook.
     [#4] some bug in integrations.
+    
 = 1.0.2 =
 * Release Date - 9 February 2022*
 * New Integration:

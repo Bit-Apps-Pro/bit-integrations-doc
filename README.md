@@ -107,9 +107,11 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 * Initial release
 = 1.0.1 =
 * Release Date - 2 February 2022*
+
 * New Feature:
     [#1] Integrations log auto delete after specified days.
     [#2] Integration clone
+
 * Fix Actions:
     [#1] Mail Editing
     [#2] updated database table.

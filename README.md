@@ -121,3 +121,4 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
     [#1] Slack
     [#2] Elastic Email
     [#3] Elementor
+    

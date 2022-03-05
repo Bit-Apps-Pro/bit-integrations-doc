@@ -6,8 +6,8 @@ on:
       - mizan
 
 jobs:
-  update-cms-master:
-    name: Merge master into release after a PR is merged
+  update-main:
+    name: merge-mizan-to-main
     runs-on: ubuntu-latest
     steps:
       - name: checkout

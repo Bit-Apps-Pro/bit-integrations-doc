@@ -1,0 +1,42 @@
+---
+id: registration
+title: Authorization Process With Registration
+sidebar_label:  Registration
+slug: /integrations/registration
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+
+***To integrate with Registration follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+
+1.	Search & Select **Registration** from the actions pages.
+ <Image src="actions/registration/select-action" alt="Registration" w="1020" h="350" />
+
+2.	You have to map Trigger fields with WP default user fields.
+ <Image src="actions/registration/map-default-user-field" alt="Registration" w="1020" h="350" />
+
+3.	For a successful full registration there are two types of notifications - `User Email Notification` & `Admin Email Notification`. Also, WP admin can set the **WP User Role**. And you can set `auto Login`, the user login automatically after registration. 
+
+ <Image src="actions/registration/registration-notification" alt="Registration" w="1020" h="350" />
+
+4.	Additionally, you can add custom fields to personalize your users' profile. You can create custom fields. After creating custom fields, you have to map it with Trigger fields from the `User Meta Field Mapping`. For that you need the corresponding id of the custom field. 
+ <Image src="actions/registration/meta-field-mapping" alt="Registration" w="1020" h="350" />
+
+:::info
+**Note: If the Username and Password fields are blank then the user will take the value of the email field as the field and the password will be auto-generated.**
+:::
+
+5.	Now save the integration by clicking the `Save` Button.
+
+6. We have an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/registration/registration-timeline" alt="Registration" w="1020" h="350" />
+ <Image src="actions/registration/registration-log" alt="Registration" w="1020" h="350" />
+
+7. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/registration/registration-option" alt="Registration" w="1020" h="350" />

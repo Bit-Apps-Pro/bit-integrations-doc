@@ -1,5 +1,6 @@
 <img src="https://docs.bit-integrations.bitapps.pro/img/logo.svg" alt="bit-form-doc-logo" height="150">
 
+
 #  WP Bit Integrations Documentation
 
 #### This repository contains Bit Integrations Documentation. Feel free to suggest edit to improve documentation by sending a pull request.
@@ -14,7 +15,10 @@ Bit Integrations lets you connect popular WordPress Form plugins to apps like Ma
 
 📢 **You can avail this plugin free if you tag us as your Zoho Partner. Read the details here - [Bit Apps products giveaway](https://www.bitapps.pro/zoho-partner-tag)**
 
+
+
 📢 **Join our new community [Bit Integrations](https://www.facebook.com/groups/formsintegrations) & get updates of our new plugin.**
+
 
 📢 **We are open for freelance work/custom development for this plugin. [Connect](https://bitapps.pro/contact) with us for further information.**
 
@@ -23,6 +27,7 @@ Impress your customers and capture more leads by connecting your WordPress forms
 ## ♻ How does this plugin work?
 
 This plugin works as a ***medium*** between two platforms. We can categorize the form plugins as **Sender** & the 3rd Party applications or other WP plugins as a **Receiver**. Form Integration is a system that allows you to integrate your form with your desired 3rd Party applications with ease. With **Form Integration**, the form submissions are sent directly to the mapped field of other applications. Popular WordPress form plugins are used as sender & CRM tools, Email Marketing tools, Project Management tools, Data collection tools, and Other WordPress plugins are used as receivers.  
+
 
 ### ✔ The form Plugin are:
 
@@ -35,7 +40,6 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
     
 5.  Gravity Form
     
-
 ### ✔ 3rd Party applications/ Other WP Plugins
 
 1.  Zoho CRM
@@ -47,6 +51,8 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
 4. Google Sheet
 
 ## ⚡ Key Features:
+
+
 
 1.  Easy integration set up with a few clicks. Don't require any coding skills.
     
@@ -84,6 +90,7 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 **[BitApps](https://www.bitapps.pro/)**
 
 
+
 == Installation ==
 
 1. Download the plugin.
@@ -92,15 +99,17 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 4. Use the browse button to select the plugin zip file that was downloaded, and then click on Install Now.
 5. Once installed, click “Activate”.
 
-
 == Changelog ==
+
 = 1.0.0 =
 * Initial release
 = 1.0.1 =
 * Release Date - 2 February 2022*
+
 * New Feature:
     [#1] Integrations log auto delete after specified days.
     [#2] Integration clone
+
 * Fix Actions:
     [#1] Mail Editing
     [#2] updated database table.
@@ -112,3 +121,4 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
     [#1] Slack
     [#2] Elastic Email
     [#3] Elementor
+    

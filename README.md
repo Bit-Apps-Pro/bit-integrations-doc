@@ -91,6 +91,7 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 **[BitApps](https://www.bitapps.pro/)**
 
 
+
 == Installation ==
 
 1. Download the plugin.

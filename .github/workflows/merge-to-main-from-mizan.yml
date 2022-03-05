@@ -1,4 +1,4 @@
-name: Update cms/master
+name: merge mizan into main
 
 on:
   push:

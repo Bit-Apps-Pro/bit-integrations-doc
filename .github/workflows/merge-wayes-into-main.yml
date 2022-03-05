@@ -1,9 +1,9 @@
-name: merge mizan into main
+name: merge wayes into main
 
 on:
   push:
     branches:
-      - mizan
+      - wayes
 
 jobs:
   update-cms-master:
@@ -17,6 +17,6 @@ jobs:
         id: merge
         with:
           github_token: ${{ github.token }}
-          source: 'mizan'
+          source: 'wayes'
           target: 'main'
           # webhook_url: #if present add the Slack webhook

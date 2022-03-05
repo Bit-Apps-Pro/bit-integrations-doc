@@ -32,7 +32,6 @@ This plugin works as a ***medium*** between two platforms. We can categorize the
 ### ✔ The form Plugin are:
 
 1.  Bit Form
-    
 2.  WP Form
     
 3.  Fluent Form
@@ -111,11 +110,13 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
     [#1] Integrations log auto delete after specified days.
     [#2] Integration clone
 
+
 * Fix Actions:
     [#1] Mail Editing
     [#2] updated database table.
     [#3] some bug in webhook.
     [#4] some bug in integrations.
+    
 = 1.0.2 =
 * Release Date - 9 February 2022*
 * New Integration:

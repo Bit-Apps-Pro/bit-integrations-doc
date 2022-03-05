@@ -100,7 +100,6 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 4. Use the browse button to select the plugin zip file that was downloaded, and then click on Install Now.
 5. Once installed, click “Activate”.
 
-
 == Changelog ==
 
 = 1.0.0 =

@@ -1,16 +1,8 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages on main push
 
 on:  
- workflow_run:
-    workflows: ["merge mizan into main", "merge wayes into main"]
-#     branches: [main]
-    types: 
-      - completed
-#     push:
-#         branches: [ main, mizan, wayes ] 
-#       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+ push:
+    branches: main
 
 jobs:
   deploy:

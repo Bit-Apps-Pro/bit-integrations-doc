@@ -26,6 +26,7 @@ module.exports = {
         "Trigger/wpforms",
         "Trigger/wsform",
         "Trigger/woocommerce",
+        "Trigger/user-registration",
       ],
     },
     {
@@ -37,6 +38,7 @@ module.exports = {
         "actions/email",
         "actions/encharge",
         "actions/fluentcrm",
+        "actions/freshdesk",
         "actions/getgist",
         "actions/google-calendar",
         "actions/google-drive",

@@ -102,7 +102,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Bit-Apps-Pro/bit-integrations-doc<div></div>',
+              href: 'https://github.com/Bit-Apps-Pro/bit-integrations-doc',
             },
           ],
         },

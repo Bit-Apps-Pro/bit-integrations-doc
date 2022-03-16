@@ -25,6 +25,7 @@ module.exports = {
         "Trigger/kali-forms",
         "Trigger/mb-frontend-submission",
         "Trigger/piotnet-forms",
+        "Trigger/typebot",
         "Trigger/wpforms",
         "Trigger/wsform",
         "Trigger/woocommerce",

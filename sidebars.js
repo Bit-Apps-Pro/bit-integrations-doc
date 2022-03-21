@@ -22,6 +22,7 @@ module.exports = {
         "Trigger/forminator",
         "Trigger/gravity-forms",
         "Trigger/happy-forms",
+        "Trigger/jetformbuilder",
         "Trigger/kali-forms",
         "Trigger/mb-frontend-submission",
         "Trigger/piotnet-forms",

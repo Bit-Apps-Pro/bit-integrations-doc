@@ -1,0 +1,94 @@
+---
+id: woocommerce
+title: Authorization Process With wooCommerce
+sidebar_label:  wooCommerce
+slug: /integrations/woocommerce
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+
+***To integrate with wooCommerce follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+
+1.	Search & Select **wooCommerce** from the actions pages
+ <Image src="actions/woocommerce/select-action" alt="wooCommerce" w="1020" h="350" />
+
+2. Integration Name: Set the proper integration name. Default it's taken wooCommerce integration.
+ <Image src="actions/woocommerce/integration-name" alt="wooCommerce" w="1020" h="350" />
+
+3. Now, click on the `connect` button to complete authorization settings.
+
+ <Image src="actions/woocommerce/authorize" alt="wooCommerce" w="1020" h="350" />
+
+4.	Click on `Next` to set up the other integration settings ahead.
+
+ <Image src="actions/woocommerce/after-authorize" alt="wooCommerce" w="1020" h="350" />
+
+### Integration Settings for Customer create
+1.	After the authorization process, select the `module` as **Customer** to create a customer account on site.  
+ <Image src="actions/woocommerce/select-dropdown-create-customer" alt="wooCommerce" w="1020" h="350" />
+
+2.	When you select the module, you will see the `Map Fields` option where two fields- **Email** & **Username**, are mapped by default. You can map multiple fields according to your choice for the **customer module**. And click on the `Next` button to move forward for further settings.
+ <Image src="actions/woocommerce/map-fields" alt="wooCommerce" w="1020" h="350" />
+
+3. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+### Integration Settings for Product create
+1.	After the authorization process, Select the `module` as **Product** if you're going to create any products on the site.
+ <Image src="actions/woocommerce/select-dropdown-create-product" alt="wooCommerce" w="1020" h="350" />
+
+2.	Then map the necessary form fields with required WooCommerce fields from the Map Fields option.
+ <Image src="actions/woocommerce/product-fields-map" alt="wooCommerce" w="1020" h="350" />
+
+3.	You can only create **Simple Product** & **Affiliate Product**. When you map all the form fields, you have to remember some **default values on WooCommerce** fields. So, you have to mention those values on the back end of the form builder. Which are:
+    - Product status - pending, draft, publish, future, private & trash.
+
+    - Product type - simple, external
+
+    - Allow Backorders - no, notify, yes
+
+    - Allow Reviews - open, closed
+
+    - Virtual - yes, no
+
+    - Manage Stock - yes, no
+
+    - Sold Individually - yes, no
+
+    - Downloadable - yes, no
+
+:::info
+
+ The values are case-sensitive, so make sure to give it the same value as all small letters.
+
+:::
+
+4.	You can customize the product **categories** & **tags** according to your choice from integration. Also, you can use the default options here. All the categories will be **parent type**. 
+
+:::tip
+
+ If any of the category or tags already exist in your WoocCommerce, then it will be referenced to that particular category/tag, otherwise it will create a new one.
+:::
+
+5.	If you select the downloadable product, then you have to add attachment file fields. For this, you have to map the form field from the `Map file upload fields` section which is **Downloadable Files**. And click on the Next button to move forward for further settings.
+ <Image src="actions/woocommerce/downloadable-fields-map" alt="wooCommerce" w="1020" h="350" />
+
+6. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+## Timeline
+
+1. We have an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/woocommerce/woocommerce-timeline" alt="wooCommerce" w="1020" h="350" />
+ <Image src="actions/woocommerce/woocommerce-log" alt="wooCommerce" w="1020" h="350" />
+
+2. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/woocommerce/woocommerce-option" alt="wooCommerce" w="1020" h="350" />

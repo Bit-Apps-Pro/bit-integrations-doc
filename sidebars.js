@@ -7,6 +7,7 @@ module.exports = {
       ],
     },
    "Setting/setting-management",
+   "Integration Action/integration-action",
     {
       Trigger: [
         "Trigger/amelia",

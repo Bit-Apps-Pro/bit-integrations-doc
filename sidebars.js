@@ -55,6 +55,7 @@ module.exports = {
         "actions/keap",
         "actions/mailchimp",
         "actions/mailpoet",
+        "actions/onedrive",
         "actions/pods",
         "actions/post-creation",
         "actions/rapidmail",

@@ -35,6 +35,7 @@ module.exports = {
         "Trigger/woocommerce",
         "Trigger/wp-courseware",
         "Trigger/wpforms",
+        "Trigger/wp-post",
         "Trigger/wsform",
       ],
     },

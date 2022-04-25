@@ -66,6 +66,7 @@ module.exports = {
         "actions/trello",
         "actions/tutor-lms",
         "actions/woocommerce",
+        "actions/wp-courseware",
         "actions/zohocrm",
         "actions/zoho-desk",
         "actions/zohorecruit",

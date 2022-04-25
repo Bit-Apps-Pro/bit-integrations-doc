@@ -18,6 +18,7 @@ module.exports = {
         "Trigger/eform",
         "Trigger/elementor-form",
         "Trigger/everest-forms",
+        "Trigger/fluent-crm",
         "Trigger/fluent-form",
         "Trigger/formidable-forms",
         "Trigger/forminator",

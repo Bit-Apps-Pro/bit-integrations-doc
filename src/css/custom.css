@@ -175,6 +175,14 @@ aside {
   font-weight: 600;
   line-height: 1.4;
 }
+.bdg-action {
+  display: inline-block;
+  position: relative;
+  padding: 2px 13px;
+  border-radius: 5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
 
 .bdg::before {
   background: inherit;
@@ -241,6 +249,13 @@ video,
 
 .new {
   background: #f6cbff;
+  color: var(--ifm-font-color-base);
+  color: rgb(22, 26, 46) !important;
+  font-size: 0.75rem;
+  border-radius: 20px;
+}
+.new-action {
+  background: #C3E2F2;
   color: var(--ifm-font-color-base);
   color: rgb(22, 26, 46) !important;
   font-size: 0.75rem;

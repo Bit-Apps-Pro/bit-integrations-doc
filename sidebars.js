@@ -23,11 +23,19 @@ module.exports = {
         "Trigger/forminator",
         "Trigger/gravity-forms",
         "Trigger/happy-forms",
+        "Trigger/jetformbuilder",
+        "Trigger/kali-forms",
+        "Trigger/mb-frontend-submission",
+        "Trigger/ninja-forms",
         "Trigger/piotnet-forms",
+        "Trigger/studiocart",
+        "Trigger/tutor-lms",
+        "Trigger/user-registration",
+        "Trigger/webhook",
+        "Trigger/woocommerce",
+        "Trigger/wp-courseware",
         "Trigger/wpforms",
         "Trigger/wsform",
-        "Trigger/woocommerce",
-        "Trigger/user-registration",
       ],
     },
     {
@@ -53,8 +61,11 @@ module.exports = {
         "actions/rapidmail",
         "actions/registration",
         "actions/sendinblue",
+        "actions/slack",
+        "actions/telegram",
         "actions/trello",
         "actions/tutor-lms",
+        "actions/woocommerce",
         "actions/zohocrm",
         "actions/zoho-desk",
         "actions/zohorecruit",
@@ -64,6 +75,8 @@ module.exports = {
         
       ],
     },
+    "changelog/overview",
+    "bit-integration-feature-request"
   ],
   
   

@@ -1,0 +1,41 @@
+---
+id: webhook
+title: Select Webhook As A trigger
+sidebar_label: Webhook
+slug: /trigger/webhook
+---
+
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+
+1. At First, Open your Bit Integration Dashboard and create an integrations by clicking the **_“Create Integration”_** button.
+
+   <Image src="trigger/_create-integrations" alt="Webhook" w="1020" h="350" />
+
+2. Now select the **Webhook** that you want to integrate with Bit Integrations **Actions**.
+
+   <Image src="trigger/webhook/select-trigger" alt="Webhook" w="1020" h="350" />
+
+3.	Bit integrations will automatically generate a **webhook URL** & you have to copy that link. And click on the **`fetch`** button.  
+   <Image src="trigger/webhook/copy-url" alt="Webhook" w="1020" h="350" />   
+
+   -	Paste the Webhook URL into the apps you want to get data from. The setup of this step will depend on the apps you are using, as each tool has a different interface for the webhook. Below is an example from **Bit Form**.
+
+   <Image src="trigger/webhook/bit-form-webhook-demo" alt="Webhook" w="1020" h="350" />
+
+   -	The app from which you want to send data. From there, you will need to send a **test request**.
+   -	If you successfully send a request, the data will be automatically **fetched**. Then the **set action** button will be activated. Next, click on the **`set action`** button.
+   <Image src="trigger/webhook/click-set-action-button" alt="Webhook" w="1020" h="350" />
+
+> **Note:** Do not copy the webhook URL until the Fetch button is activated.
+
+
+
+ 
+<br/>
+
+:::info
+  After completing these steps, the **Actions** list will appear, and select the action you want to integrate with your selected **Trigger**. Now you have to **authorize** the Action. To know more about authorization, Go to **Actions** from the left side menu and select the Action you want to integrate with your chosen trigger.
+:::
+

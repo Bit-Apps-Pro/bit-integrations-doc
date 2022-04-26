@@ -43,6 +43,7 @@ module.exports = {
         "actions/activecampaign",
         "actions/acumbamail",
         "actions/autonami",
+        "actions/bitform",
         "actions/dropbox",
         "actions/elastic-email",
         "actions/email",

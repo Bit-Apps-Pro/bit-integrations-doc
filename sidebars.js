@@ -48,6 +48,7 @@ module.exports = {
         "actions/elastic-email",
         "actions/email",
         "actions/encharge",
+        "actions/fluent-support",
         "actions/fluentcrm",
         "actions/freshdesk",
         "actions/getgist",

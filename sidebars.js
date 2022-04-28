@@ -81,6 +81,7 @@ module.exports = {
         "actions/zohobigin",
         "actions/zohocampaign",
         "actions/zohomarketinghub",
+        "actions/zoom",
         
       ],
     },

@@ -1,0 +1,94 @@
+---
+id: conditional-logic
+title: Bit Integrations-Conditional Logic
+sidebar_label: Conditional Logic
+slug: /conditional-logic
+---
+
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+### Operator Conditions
+
+1. **Equal:** Checks whether the selected field is equal to the set value. 
+
+ Example: suppose, If the first name of the Form/Task field is Equal to "Bitcode," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="equal-conditions" alt="conditional-logic" w="1020" h="350" />
+
+2. **Not Equal:** Checks if the selected field is not equal to the set value. 
+
+ Example: suppose, If the first name of the Form/Task field is Not Equal "Bitcode," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+
+ <Video src="not-equal-condition" alt="conditional-logic" w="1020" h="350" />
+
+
+3. **Is Null:** Checks whether the selected field is empty. 
+
+ Example: suppose, If the first name of the Form/Task field Is Null, the data will be sent to your chosen action app. Otherwise, it will not be sent.
+
+ <Video src="null-condition" alt="conditional-logic" w="1020" h="350" />
+
+4. **Is Not Null:** Checks if the selected field is not empty.
+ 
+ Example: suppose, If the first name of the Form/Task field Is Not Null, the data will be sent to your chosen action app. Otherwise, it will not be sent.
+  <Video src="is-not-null-condition" alt="conditional-logic" w="1020" h="350" />
+
+
+5. **Contain:** Checks whether there is a value in the condition of the selected field.
+
+ Example: suppose, If the first name of the Form/Task field Contains "Bitcode," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+   <Video src="contain-condition" alt="conditional-logic" w="1020" h="350" />
+
+6. **Not Contain:** Checks whether the condition of the selected field does not contain a value.
+ 
+ Example: suppose, If the first name of the Form/Task field Not Contain "Bitcode," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="not-contain-conditions" alt="conditional-logic" w="1020" h="350" />
+
+7. **Start With:** Checks whether the selected field starts with a given value.
+
+ Example: suppose, If the first name of the Form/Task field Start With "S, D, R, T, B, J, L, P," etc., the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="start-with-condition" alt="conditional-logic" w="1020" h="350" />
+
+8. **End With:** Checks whether the selected field ends with a given value.
+ 
+ Example: suppose, If the first name of the Form/Task field End With "w c,n,g, a,o, r," etc., the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="end-with-conditions" alt="conditional-logic" w="1020" h="350" />
+
+9. **Greater Than (Number):** Checks whether a number is Greater Than the given value.
+
+ Example: suppose, If the Number field of the Form/Task field is Greater Than "10," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+  <Video src="greater-than-condition" alt="conditional-logic" w="1020" h="350" />
+
+10. **Less Than (Number):** Checks whether a number is less than the given value.
+
+ Example: If the Number field of the Form/Task field is Less Than "10," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+  <Video src="less-than-condition" alt="conditional-logic" w="1020" h="350" />
+
+
+11. **Greater Than or Equal (Number):** Checks whether a number is greater or equal to the given value.
+
+ Example: suppose, If the Number field of the Form/Task field is Greater Than or Equal "10," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="grater-than-or-equal-condition" alt="conditional-logic" w="1020" h="350" />
+
+12. **Less Than or Equal (Number):** Checks whether a number is less than or equal to the given value.
+ 
+ Example: suppose, If the Number field of the Form/Task field is Less Than or Equal "10," the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="less-than-or-equal-condotions" alt="conditional-logic" w="1020" h="350" />
+
+>**Note:** **`Greater Than`**, **`Less Than`**, **`Greater Than or Equal`**, **`Less Than or Equal`**, these conditions only work with the number field.
+ 
+
+### Logical Conditions
+1. **Or Condition:** Or Condition enables you to set multiple possible conditions. If Any condition is evaluated correctly, then subsequent and previous conditions are not considered. Because the evaluation of any one of the conditions is true, the condition will work. And it depends on how you set up your rules.
+
+ Example: Suppose, If the first name of the Form/Task field is Equal to "Wayes" Or Age Greater Than  "18" Or Country Equal to "Bangladesh"  Or city Equal to "Rajshahi." If any of these conditions match, then the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="or-condition" alt="conditional-logic" w="1020" h="350" />
+
+2. **And Condition:** The purpose of AND logic is to require two or more conditions that users must meet simultaneously.
+ 
+ Example: Suppose, If the first name of the Form/Task field is Equal to "Bitcode," And Last Name is Equal to "Technology," And City Equal to "Rajshahi." If these conditions are met, then the data will be sent to your chosen action app. Otherwise, it will not be sent.
+ <Video src="and-conditions" alt="conditional-logic" w="1020" h="350" />
+
+
+<Feedback/>

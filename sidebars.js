@@ -8,6 +8,7 @@ module.exports = {
     },
    "Setting/setting-management",
    "Integration Action/integration-action",
+   "conditional-logic",
     {
       Trigger: [
         "Trigger/amelia",

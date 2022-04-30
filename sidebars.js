@@ -59,6 +59,7 @@ module.exports = {
         "actions/google-calendar",
         "actions/google-drive",
         "actions/google-sheet",
+        "actions/hubspot",
         "actions/keap",
         "actions/mailchimp",
         "actions/mailpoet",
@@ -72,6 +73,7 @@ module.exports = {
         "actions/telegram",
         "actions/trello",
         "actions/tutor-lms",
+        "actions/wishlist",
         "actions/woocommerce",
         "actions/wp-courseware",
         "actions/zohocrm",
@@ -80,6 +82,7 @@ module.exports = {
         "actions/zohobigin",
         "actions/zohocampaign",
         "actions/zohomarketinghub",
+        "actions/zoom",
         
       ],
     },

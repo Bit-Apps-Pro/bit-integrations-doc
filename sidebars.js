@@ -59,6 +59,7 @@ module.exports = {
         "actions/google-calendar",
         "actions/google-drive",
         "actions/google-sheet",
+        "actions/groundhogg",
         "actions/hubspot",
         "actions/keap",
         "actions/mailchimp",

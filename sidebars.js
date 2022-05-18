@@ -69,6 +69,7 @@ module.exports = {
         "actions/post-creation",
         "actions/rapidmail",
         "actions/registration",
+        "actions/sendfox",
         "actions/sendinblue",
         "actions/slack",
         "actions/telegram",

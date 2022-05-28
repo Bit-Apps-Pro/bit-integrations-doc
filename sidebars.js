@@ -28,6 +28,7 @@ module.exports = {
         "Trigger/gravity-forms",
         "Trigger/happy-forms",
         "Trigger/jetformbuilder",
+        "Trigger/kadence-blocks-form",
         "Trigger/kali-forms",
         "Trigger/mb-frontend-submission",
         "Trigger/met-form",

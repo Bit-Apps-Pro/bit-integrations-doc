@@ -14,6 +14,7 @@ module.exports = {
         "Trigger/amelia",
         "Trigger/beaver-builder",
         "Trigger/bricks",
+        "Trigger/brizy",
         "Trigger/contact-form7",
         "Trigger/divi",
         "Trigger/eform",

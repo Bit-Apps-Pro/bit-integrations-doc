@@ -26,6 +26,7 @@ module.exports = {
         "Trigger/formidable-forms",
         "Trigger/forminator",
         "Trigger/gravity-forms",
+        "Trigger/groundhogg",
         "Trigger/happy-forms",
         "Trigger/jetformbuilder",
         "Trigger/kadence-blocks-form",

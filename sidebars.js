@@ -30,6 +30,7 @@ module.exports = {
         "Trigger/jetformbuilder",
         "Trigger/kali-forms",
         "Trigger/mb-frontend-submission",
+        "Trigger/met-form",
         "Trigger/ninja-forms",
         "Trigger/piotnet-forms",
         "Trigger/studiocart",

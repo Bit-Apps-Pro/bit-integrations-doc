@@ -67,6 +67,7 @@ module.exports = {
         "actions/hubspot",
         "actions/keap",
         "actions/mailchimp",
+        "actions/mailerlite",
         "actions/mailpoet",
         "actions/onedrive",
         "actions/pods",

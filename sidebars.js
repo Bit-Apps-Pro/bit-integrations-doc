@@ -80,6 +80,7 @@ module.exports = {
         "actions/telegram",
         "actions/trello",
         "actions/tutor-lms",
+        "actions/twilio",
         "actions/wishlist",
         "actions/woocommerce",
         "actions/wp-courseware",

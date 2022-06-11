@@ -82,6 +82,7 @@ module.exports = {
         "actions/tutor-lms",
         "actions/twilio",
         "actions/vbout",
+        "actions/whatsapp",
         "actions/wishlist",
         "actions/woocommerce",
         "actions/wp-courseware",

@@ -231,6 +231,11 @@ aside {
   color: white;
 }
 
+.Note {
+  background: #F64756;
+  color: white;
+}
+
 .Fixed {
   background: #ffd000;
 }
@@ -273,7 +278,8 @@ video,
 [data-theme="dark"] .Fixed,
 .Improvement,
 .Added,
-.new {
+.new
+.Note {
   color: var(--ifm-background-color);
 }
 

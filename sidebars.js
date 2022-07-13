@@ -66,6 +66,7 @@ module.exports = {
         "actions/groundhogg",
         "actions/hubspot",
         "actions/keap",
+        "actions/learndash",
         "actions/mailchimp",
         "actions/mailerlite",
         "actions/mailpoet",

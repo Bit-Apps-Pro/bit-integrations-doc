@@ -31,6 +31,7 @@ module.exports = {
         "Trigger/jetformbuilder",
         "Trigger/kadence-blocks-form",
         "Trigger/kali-forms",
+        "Trigger/learndash",
         "Trigger/mb-frontend-submission",
         "Trigger/met-form",
         "Trigger/ninja-forms",

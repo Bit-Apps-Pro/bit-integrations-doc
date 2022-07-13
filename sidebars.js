@@ -15,6 +15,7 @@ module.exports = {
         "Trigger/beaver-builder",
         "Trigger/bricks",
         "Trigger/brizy",
+        "Trigger/buddyboss",
         "Trigger/contact-form7",
         "Trigger/divi",
         "Trigger/eform",

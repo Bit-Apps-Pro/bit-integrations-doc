@@ -54,6 +54,7 @@ module.exports = {
         "actions/acumbamail",
         "actions/autonami",
         "actions/bitform",
+        "actions/buddyboss",
         "actions/dropbox",
         "actions/elastic-email",
         "actions/email",

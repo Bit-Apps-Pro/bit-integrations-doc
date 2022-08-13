@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbitform_documentation=self.webpackChunkbitform_documentation||[]).push([[9285],{12776:function(e){e.exports=JSON.parse('{"plugin":{"name":"@easyops-cn/docusaurus-search-local","id":"default"}}')}}]);

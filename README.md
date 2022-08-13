@@ -101,26 +101,202 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 
 == Changelog ==
 
-= 1.0.0 =
+> 1.0.0 
 * Initial release
-= 1.0.1 =
-* Release Date - 2 February 2022*
 
-* New Feature:
-    [#1] Integrations log auto delete after specified days.
-    [#2] Integration clone
+> 1.0.1  
+* Release Date – 2 February 2022
+
+* New Triggers :
+    * WooCommerce
+    * Elementor
+    * Forminator
+    * WS Form
+    * Piotnet Forms
+    * eForm
+    * User Registration
+    * Fluent Forms
+    * Gravity Forms
+    * Ninja Forms
+    * WPForms
+    * Webhook
+* Features:
+    * Integration log auto delete after specified days
+    * Integration clone
+* Fixes :
+    * GoogleSheet MultiSelect, Checkbox & Radio field issue fixed
+    * MailChimp Date field issue fixed
+    * Mail Editing
+    * Updated database table
+    * Webhook issue fixed
+    * Other fixes and improvements
+    * Google sheet MultiSelect, Checkbox & Radio field issue fixed
+    * MailChimp Data field issue fixed
 
 
-* Fix Actions:
-    [#1] Mail Editing
-    [#2] updated database table.
-    [#3] some bug in webhook.
-    [#4] some bug in integrations.
-    
-= 1.0.2 =
-* Release Date - 9 February 2022*
-* New Integration:
-    [#1] Slack
-    [#2] Elastic Email
-    [#3] Elementor
-    
+> 1.0.2
+* Release Date – 7 February 2022
+
+* New Triggers :
+    * Everest Forms
+
+> 1.0.3
+* Release Date – 4 April 2022
+
+* New Triggers :
+    * Divi
+    * Bricks
+    * Beaver Builder
+    * WP Courseware
+    * Tutor LMS
+    * FluentCRM
+    * StudioCart
+    * HappyForms
+    * Formideble Forms
+    * JetForm
+    * Amelia
+    * KaliForms
+    * WPFunnels
+* Fixes :
+    * WebHook bug fixed (Trigger)
+
+> 1.0.4
+* Release Date – 24 April 2022
+
+* New Actions :
+    * Bit Form
+    * Webhook
+    * Zapier
+    * Integromat
+    * Integrately
+    * Pabbly
+    * SyncSpider
+    * KonnectzIT
+    * Ant Apps
+    * Trello
+* New Triggers :
+    * WP Post
+* Features :
+    * Added search facility for triggers
+* Fixes :
+    * WP Courseware bug fixed (Trigger)
+    * Mail integration edit bug fixed
+
+> 1.0.5
+* Release Date – 30 April 2022
+
+* Features :
+    * Added more theme support for Divi
+* Fixes :
+    * Fluent Form container fields not showing in field map fixed
+
+> 1.0.6
+* Release Date – 14 May 2022
+
+* Fixes :
+    * Webhook data format error issue fixed
+
+> 1.0.7
+* Release Date – 24 May 2022
+
+* New Triggers :
+    * Met Form
+    * Kadence Blocks Form
+    * N8N
+* Fixes :
+    * BitForm edit bug fixed (Action)
+    * Conditional logic error status not added timeline issue fixed
+
+> 1.0.8
+* Release Date – 04 June 2022
+
+* New Triggers :
+    * LearnDash LMS
+* Features :
+    * Specific a product order in wooCommerce trigger
+
+> 1.0.9
+* Release Date – 13 June 2022
+
+* New Actions :
+    * Restrict Content (Pro)
+    * LearnDash LMS (Pro)
+
+> 1.1.0
+* Release Date – 26 June 2022
+
+* New Triggers :
+    * Restrict Content
+    * LearnDash LMS
+    * BuddyBoss
+    * AffiliateWP
+
+
+> 1.1.1
+* Release Date – 28 June 2022
+
+* Fixes :
+    * WooCommerce field are not fetching properly.
+
+> 1.1.2
+* Release Date – 5 July 2022
+
+### **Added**
+#### New Actions :
+    * AffiliateWP(pro)
+    * BuddyBoss(18 type actions added)(pro)  
+#### Added: New smart tag  
+* WordPress Locale Code
+* Post Publish Date
+* Post Modified Date
+* Current User Role
+* Post Author ID
+* Post Author Display Name
+* Post Author Email   <br/><br/>
+### **Fixes**
+* Amelia data are not fetching.  
+#### **Note :**
+* All smart tag available in pro.
+
+> 1.1.3
+* Release Date – 24 July 2022
+
+### **Features**
+#### Trigger
+* WooCommerce
+    * User order status change Specific status.
+    * User subscribe product.
+    * User unsubscribe/cancel product.
+    * user subscription product time expire.
+    * User subscription product status change.
+    * user subscription product trial period end.
+* Post
+    * Added post edit option.
+    * User Registration
+    * User Login.
+    * User reset password.
+    * User delete account.
+### **Fixes** 
+* First name and last name are not visible for field map on FluentCRM issue fixed.
+
+> 1.1.4
+* Release Date – 4 August 2022
+
+### **Add**
+#### Trigger :
+
+* WeForms
+* Piotnet Addon (form)
+
+### **Features**
+
+#### Trigger :
+* Bricks
+    * Show bricks template form.
+* Elementor
+    * Show elementor template form.
+* FluentCRM
+    * Added FluentCRM edit option
+### **Fixes**
+* Tutor Lms edit option loading issue fixed.
+* BuddyBoss issue fixed.

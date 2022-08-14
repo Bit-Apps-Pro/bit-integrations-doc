@@ -1,0 +1,108 @@
+---
+id: whatsapp
+title: Authorization Process With WhatsApp
+sidebar_label: WhatsApp
+slug: /integrations/whatsapp
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+
+> **Note: WhatsApp is only available on the pro version.**
+
+**To integrate with WhatsApp follow, the below steps.**
+
+## Process of Authorization and Integration
+
+1. Search & Select **WhatsApp** from the actions pages
+   <Image src="actions/whatsapp/select-whatsapp" alt="WhatsApp" w="1020" h="350" />
+   
+2.	 **Integration Name:** Set the proper integration name. Default it's taken **WhatsApp**
+   <Image src="actions/whatsapp/integration-name" alt="WhatsApp" w="1020" h="350" />
+
+3.	**Phone number ID & WhatsApp Business Account ID:** For Number ID & Account ID, you have to visit the [**Facebook Developer console**](https://developers.facebook.com/apps/). If you already have a Number ID & Account ID before, copy these two field. If you don’t have any, then you have to create.
+   <Image src="actions/whatsapp/number-and-account-id" alt="WhatsApp" w="1020" h="350" />
+
+4. **Phone number ID & WhatsApp Business Account ID:** To get Number ID and Account ID, you have to visit [**Facebook Developer console**](https://developers.facebook.com/) and Navigate to My Apps. And Create an App. On the top-right corner, you will find Create App option.
+   <Image src="actions/whatsapp/navigate-myapps" alt="WhatsApp" w="1020" h="350" />
+   <Image src="actions/whatsapp/create-app" alt="WhatsApp" w="1020" h="350" />
+
+
+5.	Then you have to select the App type **Business** And click Next to proceed. Also you have to provide basic information to create an App.
+ <ol>
+   <li> Display name: Please provide the proper App name of your preference. </li>
+   <li> App contact email: By default it will take your login email address. This  email is used to communicate with you about potential policy violations and recover an app if it has been deleted.</li>
+  <li>
+   Business Account: If you have a Business account, then you can select or leave it blank; this is optional.
+   </li>
+ </ol>
+   <Image src="actions/whatsapp/selest-app-type" alt="WhatsApp" w="1020" h="350" />
+   <Image src="actions/whatsapp/basic-information" alt="WhatsApp" w="1020" h="350" />
+   <Image src="actions/whatsapp/confirm-password" alt="WhatsApp" w="1020" h="350" />
+
+6.	After completing these steps you have to add product which is **WhatsApp** in your app. To Add WhatsApp Click on **`SetUp`** button.
+   <Image src="actions/whatsapp/add-whatsapp-as-app" alt="WhatsApp" w="1020" h="350" />
+   <Image src="actions/whatsapp/get-stared" alt="WhatsApp" w="1020" h="250" />
+
+7.	Now copy the Phone number ID & WhatsApp Business Account ID and paste it into integration setting.
+   <Image src="actions/whatsapp/number-and-account-id" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/paste-number-and-account-id" alt="WhatsApp" w="1020" h="250" />
+
+8.	**Access Token:** To get Access Token open your App that you have just created on your Facebook Developer Console. But this is a Temporary Access Token; it will be expired every 24 hours and if the Access Token will expire then the integration will not work. So please follow the steps below to create a Permanent Access Token.
+   <Image src="actions/whatsapp/temporary-access-token" alt="WhatsApp" w="1020" h="250" />
+
+
+### Create Permanent Access Token
+  **Please follow the steps below to create a Permanent Access Token.**
+
+1.	**Access Token:**  To get Permanent Access Token open your App that you have just created on your Facebook Developer Console. And click on mark area. 
+   > **Note: The mark area name will be different for you.**
+
+   <Image src="actions/whatsapp/all-apps-dashboard" alt="WhatsApp" w="1020" h="250" />
+
+2.	Then Navigate to System Users under Users and click on Add
+button. Then click **`I Accept`** and then **`Done`**
+   <Image src="actions/whatsapp/add-system-users" alt="WhatsApp" w="1020" h="250" />
+
+3.	**System Username & Role:** Please give the proper Username of your preference. And User Role must be given to **Admin**. Then click on `Create System `User. Then click `I Accept `and then `Done`
+   <Image src="actions/whatsapp/users-role" alt="WhatsApp" w="1020" h="250" />
+
+4.	After successfully Creating System User then click **`Add Asset`**  and Navigate to Apps and check the App you created for WhatsApp integration and allow Full control. Click the “Save Changes” button to save the process.
+   <Image src="actions/whatsapp/add-assets" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/assets-full-control-permission" alt="WhatsApp" w="1020" h="250" />
+
+5.	Finally, Click on the **`Generate New Token`** button to generate a permanent Access Token. Now select **App** from drop-down option. And give the permission from Available permissions **whatsapp_business_messaging,** **whatsapp_business_management.** Then click generate Token button.
+
+   <Image src="actions/whatsapp/generate-token" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/gererate-token-select-app" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/generate-token-permission" alt="WhatsApp" w="1020" h="250" />
+
+
+6.	After Completing these step A Permanent Access Token will be generated, you have to copy the token[Can save for future integration] and paste it into integration setting. And click on **`Authorize`** button.
+   <Image src="actions/whatsapp/created-generated-token" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/authorize" alt="WhatsApp" w="1020" h="250" />
+
+### Integration Settings
+
+1.	**Message Type:** Now select the Message Type from drop-down option. Bit Integrations have two option respectively **Text** and **Template**
+
+ **A. Text:** By selecting this option, you can create the message. In addition, Bit Integration has a text editor option in WhatsApp integration here you can type your message to send [only plan text] and also can use the form field/task field in the editor. You need to map the field before typing the message
+   <Image src="actions/whatsapp/message-type-text" alt="WhatsApp" w="1020" h="250" />
+
+ **B. Template:** By selecting this option, You can send message, that you have already created. Just copy the template name paste it into Template option in integrations setting. You need to map the field before put the template name.
+   <Image src="actions/whatsapp/message-type-template" alt="WhatsApp" w="1020" h="250" />
+
+2.	**Field Mapping:** Map the form/task field with WhatsApp Phone field. Form / Task must be phone field.
+   <Image src="actions/whatsapp/field-mapping" alt="WhatsApp" w="1020" h="250" />
+
+3.	Now save the integration by clicking the **`Finish & Save`** Button
+   <Image src="actions/whatsapp/finish-and-save" alt="WhatsApp" w="1020" h="250" />
+
+4.	Bit Integrations has an option in every integration **`Timeline`** where you can check integration success or error status.
+   <Image src="actions/whatsapp/timeline" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/success-and-error-status" alt="WhatsApp" w="1020" h="250" />
+
+5.	Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+   <Image src="actions/whatsapp/edit-clone-delete" alt="WhatsApp" w="1020" h="250" />
+ <Feedback/>

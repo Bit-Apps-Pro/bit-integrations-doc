@@ -1,0 +1,66 @@
+---
+id: slack
+title: Authorization Process With Slack
+sidebar_label:  Slack
+slug: /integrations/slack
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Slack is available on the free and pro version.**
+
+***To integrate with Slack follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select **Slack** from the actions pages
+ <Image src="actions/slack/search-and-select" alt="Slack" w="1020" h="350" />
+
+2. **Integration Name:** Set the proper integration name. Default it's taken 'Slack'.
+ <Image src="actions/slack/default-integration-name" alt="Slack" w="1020" h="350" />
+
+3.	After that, you have to copy the API key from your Slack account & paste the key on the field. To get the API key, click on **Slack API Console** or go to [api.slack.com/apps](https://api.slack.com/apps)  
+    **Setup Proccess**
+    1. click on `Create New App`/Create an App: `From scratch`.
+    2.	Type your app name
+    3.	Select your workspace from the Drop-Down list that you want to send the message. and click on `Create App` button.
+    4.	In the left sidebar menu, navigate to `OAuth & Permissions` tab under Features.
+    5.	Scroll Down and go to User Token Scopes under **scopes** section and add scopes `chat:write`, `channels:read`, `channels:write`, `files:read`, `files:write`.
+    6.	Go to OAuth Tokens for Your Workspace section and click on `install to workspace` button.
+ <Video src="slack-access-token" alt="Slack" w="1020" h="350" />
+
+4. Now copy the API key and paste it into the integrations dashboard. And Click on **`“Authorize”`** button.
+
+ <Image src="actions/slack/authorize" alt="Slack" w="1020" h="350" />
+
+
+5. Click on **`Next`** to set up the other integration settings ahead.
+
+6. After completing the authorization process, Select the Channels List from the drop-down option. You have to create a list before on your Slack account.
+ <Image src="actions/slack/slack-channels-list" alt="Slack" w="1020" h="350" />
+
+7. You can type your message and also can put dynamic fields (Form Fields or Task Fields).
+ <Image src="actions/slack/slack-message-type" alt="Slack" w="1020" h="350" />
+
+
+## Actions
+- You can select the action Attachment right below the Message’ field. Enabling this action, you can send – `Audio`, `Video`, `Photo`, or `Document` from Trigger to slack. After this, click on the `Next` option.
+
+ <Image src="actions/slack/enable-attachment" alt="Slack" w="1020" h="350" />
+
+8. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/slack/finish-save" alt="Slack" w="1020" h="350" />
+
+9. We have an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/slack/slack-timeline" alt="Slack" w="1020" h="350" />
+ <Image src="actions/slack/slack-log" alt="Slack" w="1020" h="350" />
+
+10. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/slack/slack-option" alt="Slack" w="1020" h="350" />
+
+
+<Feedback/>

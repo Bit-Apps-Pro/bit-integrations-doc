@@ -1,0 +1,89 @@
+---
+id: google-drive
+title: Authorization Process With Google Drive
+sidebar_label:  Google Drive
+slug: /integrations/google-drive
+---
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Google Drive is only available on the pro version.**
+
+***To integrate with google-drive follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select Google from the actions pages.
+ <Image src="actions/google-drive/_select-google-drive" alt="google-drive" w="1020" h="350" />
+ 
+2.	Integration Name: Set the proper integration name. Default it's taken **“Google Sheet”**.
+ <Image src="actions/google-drive/_integration-name" alt="google-drive" w="1020" h="350" />
+
+3.	Client ID & Secret: For client ID & secret you have to visit the **Google API console**. If you already have any Client ID & secret before then copy this to the field. If you don’t have any then you have to create a new client ID & secret.
+ <Image src="actions/google-drive/_google-console" alt="google-drive" w="1020" h="350" />
+ <Image src="actions/google-drive/_credentials" alt="google-drive" w="1020" h="350" />
+ <Image src="actions/google-drive/_clientid-and-secret" alt="google-drive" w="1020" h="350" />
+
+
+#### If you don’t have any then you have to create a new client ID & secret.
+1.	**Client ID & Secret:** For client ID & secret, you have to visit the **Google API console**. If you already have any Client ID & secret before then, copy this to the field. If you don't have any, then you have to create a new client ID & secret
+
+2.	To create Google OAuth-2, you have to visit the [**Google API console.**](https://console.cloud.google.com/apis/credentials) If you don't have any Projects in Google Console, you have to create projects in Console.
+
+3.	To create a **Project**, click on **My First Project** -> Then Click **New Project**.
+ <Image src="actions/google-drive/_create-projects" alt="google-drive" w="1020" h="350" />
+ <Image src="actions/google-drive/_new-projects" alt="google-drive" w="1020" h="350" />
+
+ 
+4.	In the Project name field, put the Project name of your choices. If you have any Organization for the Location field, you can put your Organization or leave it as default.
+ <Image src="actions/google-drive/_projects-name" alt="google-drive" w="1020" h="300" />
+
+5.	Now click on the **"Create"** button to create a Project.
+6.	Now go to the **Google API Console Dashboard**, and you have to enable Google sheets API and Google Drive API.
+7.	To enable Google Sheets API and Google Drive API to go to Dashboard and select **ENABLE APIS AND SERVICE**.
+ <Image src="actions/google-drive/_enable-api" alt="google-drive" w="1020" h="300" />
+
+8. Search Google Drive API in this search bar. Now Select Google Drive API and enable API by clicking on the **"Enable"** button.
+ <Image src="actions/google-drive/_google-drive-api" alt="google-drive" w="1020" h="300" />
+ <Image src="actions/google-drive/_enable-google-drive-api" alt="google-drive" w="1020" h="300" />
+
+9.	If you have already created an application under **OAuth Consent Screen**, or you have to create an application. And select the **Scopes** tab, and you have to add **Google Sheets API and Google Drive API scopes**.
+ 
+10.	To add Google Sheets API and Google Drive API scopes. Click on the **"ADD OR REMOVE SCOPES"** button. Then search and add Google Sheets API and Google Drive API scopes and click on the **"Update"** button.
+ <Image src="actions/google-drive/_add-scopes" alt="google-drive" w="1020" h="300" />
+ <Image src="actions/google-drive/_search-and-add-scopes" alt="google-drive" w="1020" h="300" />
+
+11. After complete these steps, to get new Client Id & Client secret information go to **Google API CONSOL=> Credentials=>Create Credentials=> OAuth Client ID => Select Application Type=> Give a Client Name => Add home page URL => Add authorized URL.**
+
+12. Register all the information and get your client ID & Secret information from google sheet.
+
+ <Image src="actions/google-drive/_create-credentials" alt="google-drive" w="1020" h="300" />
+ <Image src="actions/google-drive/_web-application" alt="google-drive" w="1020" h="300" />
+ <Image src="actions/google-drive/_authorised-uris" alt="google-drive" w="1020" h="300" />
+ <Image src="actions/google-drive/_clientid-and-secret2.0" alt="google-drive" w="1020" h="300" />
+
+13. Now give **Client ID & Secret** to the fields & click **Authorize** & you are ready to import all your data from Bit Form to your Google Sheet.
+<Image src="actions/google-drive/_authorize" alt="google-drive" w="1020" h="300" />
+
+14.	You can now **map** the Bit form fields with the necessary Google fields. You can send custom values on Google Sheet. After mapping the desired fields, click on **Next**.
+    <Image src="actions/google-drive/_field-mapping" alt="google-drive" w="1020" h="300" />
+
+:::info
+You can only upload the files (image, audio, video, docs, pdf, etc.)
+:::
+
+## Actions
+1.	**Delete File From WordPress:**  By enabling this option,  the file is automatically deleted from WordPress after uploading to Google Drive.
+    <Image src="actions/google-drive/_delete-file-actions" alt="google-drive" w="1020" h="300" />
+
+## Save and Finish
+19. To save the integration process click on **Finish & Save.**
+    <Image src="actions/google-drive/_finish-and-save" alt="google-drive" w="1020" h="300" />
+
+
+20. We have an option in every integration **"Timeline,"** where you can check integration success or error status.
+   <Image src="actions/google-drive/_integration-dashdord" alt="google-drive" w="1020" h="350" />
+   <Image src="actions/google-drive/_timeline" alt="google-drive" w="1020" h="350" />
+
+<Feedback/>

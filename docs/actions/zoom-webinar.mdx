@@ -1,0 +1,52 @@
+---
+id: zoom-webinar
+title: Authorization Process With Zoom Webinar
+sidebar_label:  Zoom Webinar
+slug: /integrations/zoom-webinar
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Zoom Webinar is only available on the pro version.**
+
+***To integrate with Zoom Webinar follow, the below steps.***
+
+## Process of Authorization and Integration
+
+1.	Search & Select **Zoom Webinar** from the actions pages
+ <Image src="actions/zoom-webinar/search-and-select-zoom-webinar" alt="Zoom Webinar" w="1020" h="350" />
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken ***Zoom Webinar*** .
+ <Image src="actions/zoom-webinar/zoom-webinar-integration-name" alt="Zoom Webinar" w="1020" h="350" />
+
+
+3.	After that, To get the **Client ID** & **Client secret**, click on `Get Zoom Webinar client id and secret`
+-	**Choose your app type:** OAuth 
+-	Type Name your app and **choose app type** -> `Account-Level app `
+-	Disable the publish this app and click on the Create App
+-	Go to the Bit Integrations page, copy the `Authorized Redirect URIs`, and paste the ***Redirect URL for OAuth*** and ***Add allow lists***.
+-	Go to the `Scopes` tab, add scopes (**User: ** `user:master`, `user:read:admin`, `user:write:admin`, **Webinar: **`webinar:master`, `webinar:read:admin`, `webinar:write:admin`) then Click on `Done` button.
+-	Then go to the `App credentials` tab, copy the ***Client ID*** & ***Client Secret***, and paste it into the integration’s dashboard. And Click on `Authorize` button.
+  <Video src="authorize-zoom-webinar" alt="Zoom Webinar" w="1020" h="350" />
+
+4.	Click on `Next` to set up the other integration settings ahead.
+ <Image src="actions/zoom-webinar/zoom-webinar-authorize-after-next" alt="Zoom Webinar" w="1020" h="350" />
+
+
+5.	After the authorization process, select the ***All Webinars*** as Webinar to create a `user`/`attendee` under Webinar, then select Action(`Create Attendee`, `Delete Attendee`, `Create User`, `Delete User`). If you don't see any Webinars. Click on the `refresh` button.
+ <Image src="actions/zoom-webinar/meeting-and-action-select" alt="Zoom Webinar" w="1020" h="350" />
+
+:::info
+  You must have **Registration:** Required when creating the Webinar. Otherwise, the integration will not work.
+:::
+
+6. When you select the `Webinars` and `Action`, you will see the Map Fields option where three fields `First Name`, `Last Name`, and `Email`, are mapped by default. You can map multiple fields according to your choice for the `Action`. And click on the `Next` button to move forward for further settings.
+
+ <Image src="actions/zoom-webinar/map-fields" alt="Zoom Webinar" w="1020" h="350" />
+
+7.	Now click on `Next` button. And save the integration by clicking the `Finish & Save` Button.
+ <Image src="actions/zoom-webinar/integrations-finish-and-save" alt="Zoom Webinar" w="1020" h="350" />
+
+
+<Feedback/>

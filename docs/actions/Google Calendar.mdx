@@ -1,0 +1,94 @@
+---
+id: google-calendar
+title: Authorization Process With Google Calendar
+sidebar_label:  Google Calendar
+slug: /integrations/google-calendar
+---
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Google Calendar is only available on the pro version.**
+
+***To integrate with google-calendar follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select Google Calendar from the actions pages.
+ <Image src="actions/google-calendar/_select-google-calendar" alt="google-calendar" w="1020" h="350" />
+ 
+2.	Integration Name: Set the proper integration name. Default it's taken **“Google Sheet”**.
+ <Image src="actions/google-calendar/_integration-name" alt="google-calendar" w="1020" h="350" />
+
+3.	Client ID & Secret: For client ID & secret you have to visit the **Google API console**. If you already have any Client ID & secret before then copy this to the field. If you don’t have any then you have to create a new client ID & secret.
+ <Image src="actions/google-calendar/_google-console" alt="google-calendar" w="1020" h="350" />
+ <Image src="actions/google-calendar/_credentials" alt="google-calendar" w="1020" h="350" />
+ <Image src="actions/google-calendar/_clientid-and-secret" alt="google-calendar" w="1020" h="350" />
+
+
+#### If you don’t have any then you have to create a new client ID & secret.
+1.	**Client ID & Secret:** For client ID & secret, you have to visit the **Google API console**. If you already have any Client ID & secret before then, copy this to the field. If you don't have any, then you have to create a new client ID & secret
+
+2.	To create Google OAuth-2, you have to visit the [**Google API console.**](https://console.cloud.google.com/apis/credentials) If you don't have any Projects in Google Console, you have to create projects in Console.
+
+3.	To create a **Project**, click on **My First Project** -> Then Click **New Project**.
+ <Image src="actions/google-calendar/_create-projects" alt="google-calendar" w="1020" h="350" />
+ <Image src="actions/google-calendar/_new-projects" alt="google-calendar" w="1020" h="350" />
+
+ 
+4.	In the Project name field, put the Project name of your choices. If you have any Organization for the Location field, you can put your Organization or leave it as default.
+ <Image src="actions/google-calendar/_projects-name" alt="google-calendar" w="1020" h="300" />
+
+5.	Now click on the **"Create"** button to create a Project.
+6.	Now go to the **Google API Console Dashboard**, and you have to enable Google sheets API and Google Calendar API.
+7.	To enable Google Sheets API and Google Calendar API to go to Dashboard and select **ENABLE APIS AND SERVICE**.
+ <Image src="actions/google-calendar/_enable-api" alt="google-calendar" w="1020" h="300" />
+
+8. Search Google Calendar API in this search bar. Now Select Google Calendar API and enable API by clicking on the **"Enable"** button.
+ <Image src="actions/google-calendar/_google-calendar-api" alt="google-calendar" w="1020" h="300" />
+ <Image src="actions/google-calendar/_enable-google-calendar-api" alt="google-calendar" w="1020" h="300" />
+
+9.	If you have already created an application under **OAuth Consent Screen**, or you have to create an application. And select the **Scopes** tab, and you have to add **Google Sheets API and Google Calendar API scopes**.
+ 
+10.	To add Google Sheets API and Google Calendar API scopes. Click on the **"ADD OR REMOVE SCOPES"** button. Then search and add Google Sheets API and Google Calendar API scopes and click on the **"Update"** button.
+ <Image src="actions/google-calendar/_add-scopes" alt="google-calendar" w="1020" h="300" />
+ <Image src="actions/google-calendar/_search-and-add-scopes" alt="google-calendar" w="1020" h="300" />
+
+11. After complete these steps, to get new Client Id & Client secret information go to **Google API CONSOL=> Credentials=>Create Credentials=> OAuth Client ID => Select Application Type=> Give a Client Name => Add home page URL => Add authorized URL.**
+
+12. Register all the information and get your client ID & Secret information from google sheet.
+
+ <Image src="actions/google-calendar/_create-credentials" alt="google-calendar" w="1020" h="300" />
+ <Image src="actions/google-calendar/_web-application" alt="google-calendar" w="1020" h="300" />
+ <Image src="actions/google-calendar/_authorised-uris" alt="google-calendar" w="1020" h="300" />
+ <Image src="actions/google-calendar/_clientid-and-secret2.0" alt="google-calendar" w="1020" h="300" />
+
+13. Now give **Client ID & Secret** to the fields & click **Authorize** & you are ready to import all your data from Bit Form to your Google Sheet.
+<Image src="actions/google-calendar/_authorize" alt="google-calendar" w="1020" h="300" />
+
+14. Now select the Calendar Lists and Time Zone from drop-down list of your choice
+<Image src="actions/google-calendar/_select-calender-list-and-time-zone" alt="google-calendar" w="1020" h="300" />
+
+14.	You can now **map** the Bit form fields with the necessary Google fields. You can send custom values on Google Sheet. After mapping the desired fields, click on **Next**.
+    <Image src="actions/google-calendar/_field-mapping" alt="google-calendar" w="1020" h="300" />
+
+## Actions
+**1.All Day Event:** By enabling this action, Events will create without time range. The Event will create for a full day.
+  <Image src="actions/google-calendar/_all-day-event-actions" alt="google-calendar" w="1020" h="300" />
+
+**2.Skip If Slot Not Free:** By enabling this action, Event create will skip if the slot is not free. Suppose you have three slots in a day at the specific time range.  If these three slot time ranges coincide with the current event created then the event will not be created it will skip. The event will skip if the slot time range matches the event deadline.
+  <Image src="actions/google-calendar/_slot-not-free-action" alt="google-calendar" w="1020" h="300" />
+
+**3. Set Reminders:** By enabling this option you can set a reminder with an Email and Calendar Notification. Also, you can set a time, how long ago you want to get the reminder. <br/>**Note:** You have to set a reminder to get reminder from drop-down list.
+  <Image src="actions/google-calendar/_reminder-actions" alt="google-calendar" w="1020" h="300" />
+
+## Save and Finish
+19. To save the integration process click on **Finish & Save.**
+    <Image src="actions/google-calendar/_finish-and-save" alt="google-calendar" w="1020" h="250" />
+
+
+20. We have an option in every integration **"Timeline,"** where you can check integration success or error status.
+   <Image src="actions/google-calendar/_timeline" alt="google-calendar" w="1020" h="350" />
+   <Image src="actions/google-calendar/_sucess-and-error-massage" alt="google-calendar" w="1020" h="350" />
+
+<Feedback/>

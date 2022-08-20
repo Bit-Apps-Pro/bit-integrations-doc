@@ -300,3 +300,31 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 ### **Fixes**
 * Tutor Lms edit option loading issue fixed.
 * BuddyBoss issue fixed.
+
+
+> 1.1.5
+* Release Date – 20 August 2022
+
+### **Add**
+#### Trigger :
+
+* Breakdance
+* GamiPress
+
+#### Action :
+
+* Google contacts
+* Kirim Email
+* GamiPress
+
+### **Features**
+
+#### Trigger :
+* Elementor
+    * Show elementor template form.
+#### Action :
+* ActiveCampaign
+    * Default 20 tag show only,now it will show more than 1000+ tag.
+### **Fixes**
+* WPForms Name field simple variation support.
+* Post Creation(trigger) issue fixed.

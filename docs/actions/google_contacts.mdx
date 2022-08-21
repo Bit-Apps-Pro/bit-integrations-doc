@@ -1,0 +1,76 @@
+---
+id: google-contacts
+title: Authorization Process With Google Contacts
+sidebar_label:  Google Contacts
+slug: /integrations/google-contacts
+---
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Google Contacts is available on the pro version.**
+
+***To integrate with Google Contacts follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select Google Contacts from the actions pages.
+ <Image src="actions/google_contacts/select_google_contact" alt="Google-Contacts" w="1020" h="350" />
+ 
+2.	Integration Name: Set the proper integration name. Default it's taken **Google Contacts**.
+ <Image src="actions/google_contacts/integration_name" alt="Google-Contacts" w="1020" h="350" />
+
+
+3. **Homepage URL:** Enter the URL of your website.
+
+ **Authorized Redirect URL:** Enter the URL in which Google Sheet will send the authentication code.
+
+ Client ID & Secret: For client ID & secret, you have to visit the Google API console. If you already have any Client ID & secret before, then copy this to the field. If you don’t have any, you must create a new client ID & secret.
+
+ <Image src="actions/google_contacts/google_console" alt="Google-Contacts" w="1020" h="350" />
+ <Image src="actions/google_contacts/credentials" alt="Google-Contacts" w="1020" h="350" />
+ <Image src="actions/google_contacts/client_id_secret" alt="Google-Contacts" w="1020" h="350" />
+
+
+
+
+#### If you don’t have any then you have to create a new client ID & secret.
+4.	**Client ID & Secret:** For client ID & secret, you have to visit the **Google API console**. Then you have to create a new client ID & secret. To get new Client Id & Client secret information go to Google **API CONSOL=> Credentials=>Create Credentials=> OAuth Client ID => Select Application Type=> Give a Client Name => Add home page URL => Add authorized URL.**
+
+ Register all the information and get your client ID & Secret information from google sheet.
+
+ <Image src="actions/google_contacts/oauth_id" alt="Google-Contacts" w="1020" h="350" />
+ <Image src="actions/google_contacts/application_type_name" alt="Google-Contacts" w="1020" h="350" />
+ <Image src="actions/google_contacts/redrict_uris" alt="Google-Contacts" w="1020" h="350" />
+ <Image src="actions/google_contacts/client_id_and_secret" alt="Google-Contacts" w="1020" h="350" />
+
+
+5. Now copy the Client ID & Secret from Google Developer Console and paste it into the integration setting. Then click on Authorize Button.
+ <Image src="actions/google_contacts/authorize" alt="Google-Contacts" w="1020" h="350" />
+
+
+## Integration Settings
+
+1. After successful authorization. Select the Action **`Create a contact`, `Update a contact`** from the drop-down option.
+
+  **A. Create a contact:** If you select this option from the drop-down, a new contact will be added to your Google Contacts
+  
+  **B. Update a contact:** If you selected this option from the drop-down. If the contact already exists in Google Contacts, It will then update the contact with other field information based on the **Phone Number and Name Field**.
+   <Image src="actions/google_contacts/select_action"alt="Google-Contacts"w="1020"h="350"/>
+
+2. You will find the Map Field option. You have to map all the necessary fields with the related Google Contacts field. Here **‘Phone Number‘ and ‘Name‘** field is the default for Kirim Account. After mapping the desired fields, click on Next button.
+   <Image src="actions/google_contacts/field_mapping"alt="Google-Contacts"w="1020"h="350"/>
+
+3. After clicking **Finish & Save** you can see the integration you have created now.
+   <Image src="actions/google_contacts/finish_save"alt="Google-Contacts"w="1020"h="350"/>
+
+4. Bit Integrations has an option in every integration called **`Timeline`** where you can check integration success or error status.
+   <Image src="actions/google_contacts/timeline"alt="Google-Contacts"w="1020"h="350"/>
+   <Image src="actions/google_contacts/success_error"alt="Google-Contacts"w="1020"h="350"/>
+
+5. Also, you can **`Edit` `Clone` `Delete`** the integration.
+   <Image src="actions/google_contacts/edit_clone_delete"alt="Google-Contacts"w="1020"h="350"/>
+
+
+
+<Feedback/>

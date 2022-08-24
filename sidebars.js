@@ -26,6 +26,7 @@ module.exports = {
         "trigger/fluent-support",
         "trigger/formidable-forms",
         "trigger/forminator",
+        "trigger/gamipress",
         "trigger/gravity-forms",
         "trigger/groundhogg",
         "trigger/happy-forms",

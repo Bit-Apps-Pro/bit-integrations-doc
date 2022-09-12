@@ -88,8 +88,6 @@ import Feedback from "@site/src/components/Feedback";
 
 
 
-
-
 ### Integration Settings for Order Create
 1.	After the authorization process, select the `module` as **Create-Order** to create a Order account on site.  
  <Image src="actions/woocommerce/select-dropdown-create-order" alt="wooCommerce" w="1020" h="350" />
@@ -102,6 +100,138 @@ import Feedback from "@site/src/components/Feedback";
  <Image src="actions/woocommerce/order-customer-map-fields" alt="wooCommerce" w="1020" h="350" />
 
 3. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+
+### Change Order Status
+
+1.	After the authorization process, select the `module` as **Change Order Status** to Change Order Status.  
+ <Image src="actions/woocommerce/select-dropdown-change-order-status" alt="wooCommerce" w="1020" h="350" />
+
+2. When you select the `module`, you will see the Filter options.
+
+#### ✅ The available Filter type in Change order status
+👉 [Specific Order ID](#-specific-order-id)   
+👉 [Specific Customer Email](#-specific-customer-email)   
+👉 [Specific Date Range](#-specific-date-range)   
+👉 [Last N Day's Orders](#-last-n-days-orders)   
+👉 [Last N Week's Orders](#-last-n-weeks-orders)   
+👉 [Last N Month's Orders](#-last-n-months-orders)   
+👉 [Previous Month Orders](#-previous-month-orders)   
+👉 [Previous N Month's Orders](#-previous-n-months-orders)   
+<br/>
+
+#### 👉 Specific Order ID
+You can change the order status with a specific order id.   
+E.g., When the user submits the form with an order id and specified order status(completed), then the status of the order will change, and the order will be completed.
+
+1. You can see the map fields option when you select the `Specific Order ID` from the `Filter` dropdown lists. Then map the necessary form fields with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/specific-order-id" alt="wooCommerce" w="1020" h="350" />
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Specific Customer Email
+You can change the order status with a specific customer.   
+E.g., When the user submits the form with the customer's email and specified order status(completed), the customer order status will change, and the order will be completed.
+
+1. You can see the map fields option when you select the `Specific Customer Email` from the `Filter` dropdown lists. Then select the **Order change type**(`Latest Order`, `All Orders`, `Specific Date Range`, `Last N Day's Orders`, `Last N Week's Orders`, `Last N Month's Orders`, `Previous Month's Orders`, `Previous N Month's Orders`). Then map the necessary form fields with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/customr-mail-order-status-change" alt="wooCommerce" w="1020" h="350" />
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Specific Date Range
+You can change the status of all orders within a specified date.   
+E.g., When the user selects the date 11-12-2021 to 30-12-2021 and submits the form with Order Status (Complete), all the orders placed between these dates will change, and the orders will have their status complete.
+
+1. You can see the map fields option when you select the `Specific Date Range` from the `Filter` dropdown lists. Then map the necessary form fields with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/specific-date-range" alt="wooCommerce" w="1020" h="350" />
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Last N Day's Orders
+You can change the order status of the last few days.   
+E.g., When the user inputs the value 5 of the number field and submits the form with Order Status (Complete), all the orders placed in the last five days will change, and the orders will have their status complete.
+
+1. You can see the map fields option when you select the `Last N Day's Orders` from the `Filter` dropdown lists. Then map the necessary form fields  with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/input-n-days" alt="wooCommerce" w="1020" h="350" />
+
+:::info
+**Note:** You can use custom values for the **N Days** field. First, select the `custom..` field, then input your preferred number.
+:::
+<Image src="actions/woocommerce/custom-value-n-days" alt="wooCommerce" w="1020" h="350" />
+
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Last N Week's Orders
+You can change the order status of the last few Week's.   
+E.g., When the user inputs the value 2 of the number field and submits the form with Order Status (Complete), all the orders placed in the last two week's will change, and the orders will have their status complete.
+
+1. You can see the map fields option when you select the `Last N Week's Orders` from the `Filter` dropdown lists. Then map the necessary form fields  with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/last-n-weeks-order-status-change" alt="wooCommerce" w="1020" h="350" />
+
+:::info
+**Note:** You can use custom values for the **N Week's** field. First, select the `custom..` field, then input your preferred number.
+:::
+<Image src="actions/woocommerce/last-n-weeks-order-status-change-custom-field" alt="wooCommerce" w="1020" h="350" />
+
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Last N Month's Orders
+You can change the order status of the last few Month's.   
+E.g., When the user inputs the value 1 of the number field and submits the form with Order Status (Complete), all the orders placed in the last one month's will change, and the orders will have their status complete.
+
+1. You can see the map fields option when you select the `Last N Month's Orders` from the `Filter` dropdown lists. Then map the necessary form fields  with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/last-n-month-order-status-change" alt="wooCommerce" w="1020" h="350" />
+
+:::info
+ **Note:** You can use custom values for the **N Month's** field. First, select the `custom..` field, then input your preferred number.
+:::
+<Image src="actions/woocommerce/last-n-months-order-status-change-custom-field" alt="wooCommerce" w="1020" h="350" />
+
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Previous Month Orders
+
+You can change the order status of the Previous Month.   
+E.g., When the user submits the form with Order Status (Complete), all the orders placed in the Previous Month will change, and the orders will have their status complete.
+
+1. You can see the map fields option when you select the `Previous Month Orders` from the `Filter` dropdown lists. Then map the necessary form fields  with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/previous-month-order" alt="wooCommerce" w="1020" h="350" />
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
+
+#### 👉 Previous N Month's Orders
+You can change the order status of the Previous few Month's.   
+E.g., When the user inputs the value two of the number field and submits the form with Order Status (Complete), all the orders placed in the previous two month's will change, and the orders will have their status complete.
+
+1. You can see the map fields option when you select the `Previous N Month's Orders` from the `Filter` dropdown lists. Then map the necessary form fields  with the required WooCommerce fields. And click on the `Next` button to move forward for further settings. If you don't see any fields. Click on the refresh `⟳` button.
+ <Image src="actions/woocommerce/previous-n-month-order-status-change" alt="wooCommerce" w="1020" h="350" />
+
+:::info
+ **Note:** You can use custom values for the **N Month's** field. First, select the `custom..` field, then input your preferred number.
+:::
+<Image src="actions/woocommerce/previous-n-months-order-status-change-custom-field" alt="wooCommerce" w="1020" h="350" />
+
+
+2. Now save the integration by clicking the **`Finish & Save`** Button
 
  <Image src="actions/woocommerce/finish-save" alt="wooCommerce" w="1020" h="350" />
 

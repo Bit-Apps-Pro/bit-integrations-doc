@@ -13,6 +13,7 @@ module.exports = {
       Trigger: [
         "trigger/amelia",
         "trigger/beaver-builder",
+        "trigger/breakdance",
         "trigger/bricks",
         "trigger/brizy",
         "trigger/buddyboss",

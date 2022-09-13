@@ -38,6 +38,7 @@ module.exports = {
         "trigger/mb-frontend-submission",
         "trigger/met-form",
         "trigger/ninja-forms",
+        "trigger/piotnet-addon-for-elementor",
         "trigger/piotnet-forms",
         "trigger/restrict-content",
         "trigger/studiocart",

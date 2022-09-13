@@ -1,0 +1,64 @@
+---
+id: mautic
+title: Authorization Process With Mautic
+sidebar_label:  Mautic
+slug: /integrations/mautic
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Mautic is only available on the pro version.**
+
+***To integrate with Mautic follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select **Mautic** from the actions pages
+ <Image src="actions/mautic/select-action-mautic" alt="Mautic" w="1020" h="350" />
+
+2. **Integration Name:** Set the proper integration name. Default it's taken **Mautic**.
+ <Image src="actions/mautic/integration-name" alt="Mautic" w="1020" h="350" />
+
+3.	After that, you have to copy the Client ID, Client Secret and base URL from your Mautic account & paste them into these fields.   
+⚡ Mautic Setup To enable the API in Mautic, follow these steps: 
+-	Login your Mautic dashboard 
+-	Go to the Configuration page (located in the Settings menu), and under API Settings enable Mautic's API.
+-	If you intend on using Basic Authentication, ensure you enable it. You can also choose which OAuth protocol to use here.
+-	After saving the configuration, go to the API Credentials page (located in the Settings menu).
+-	Now click on the `New` button to create a new API credential.
+-	Input your API credential name and enter the redirect URL that the request will be sent to Bit integrations.
+-	Now copy the Client ID, Client Secret and Mautic base URL and paste it into the integration’s dashboard. Click on `Authorize` button. 
+
+ <Video src="create-mautic-api-credential" alt="Slack" w="1020" h="350" />
+
+4. Click on `Next` to set up the other integration settings ahead.
+
+ <Image src="actions/mautic/authorize" alt="Mautic" w="1020" h="350" />
+
+
+5.	After completing the authorization process, you will find the Map Field option. You have to map all the necessary fields with the related **Mautic** field. You can also send custom values by mapping your fields. If you don't see any fields. Click on the `refresh` button.
+ <Image src="actions/mautic/mautic-field-map" alt="Mautic" w="1020" h="350" />
+
+6. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/mautic/finish-save" alt="Mautic" w="1020" h="350" />
+
+## Actions
+
+**Tag:** When you enable this option, you can add a tag to the contact that is pushed to mautic. If you don't see any Tags. Click on the `refresh` button.
+ <Image src="actions/mautic/tag" alt="Mautic" w="1020" h="350" />
+
+## Timeline
+1. We have an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/mautic/mautic-timeline" alt="Elastic Email" w="1020" h="350" />
+ <Image src="actions/mautic/mautic-log" alt="Elastic Email" w="1020" h="350" />
+
+2. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/mautic/mautic-option" alt="Elastic Email" w="1020" h="350" />
+
+
+
+<Feedback/>

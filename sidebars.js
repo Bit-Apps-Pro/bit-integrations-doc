@@ -89,6 +89,7 @@ module.exports = {
         "actions/rapidmail",
         "actions/registration",
         "actions/restrict-content",
+        "actions/salesforce",
         "actions/sendfox",
         "actions/sendinblue",
         "actions/slack",

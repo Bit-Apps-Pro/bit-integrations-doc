@@ -1,0 +1,78 @@
+---
+id: salesforce
+title: Authorization Process With Salesforce
+sidebar_label:  Salesforce
+slug: /integrations/salesforce
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+
+> **Note: Salesforce is only available on the pro version.**
+
+***To integrate with salesforce follow, the below steps.***
+
+
+## Process of Authorization and Integration
+1. Search & Select **Salesforce** from the actions pages.
+ <Image src="actions/salesforce/search-salesforce" alt="Salesforce" w="1020" h="350" />
+
+2. Integration Name: Set the proper integration name Default it's taken “Salesforce”.
+ <Image src="actions/salesforce/integration-name" alt="Salesforce" w="1020" h="350" />
+
+3. Client ID & Client Secret: To get a new Client Id & Client secret, 
+    1. Go to your Salesforce site and log in. 
+    2. Go to **Setup > PLATFORM TOOLS > Apps > App Manager** and hit on "`New Connected App`" button
+    3. Give your App a name.
+    4. Enable OAuth Settings - Set callback URL. Copy Authorized Redirect URIs and paste it into callback URL field.
+    5. Add an OAuth scope you want or simply add all scsope
+
+ <Video src="salesforce" alt="Salesforce" w="1020" h="350" />
+ <Image src="actions/salesforce/client-id-secret" alt="Salesforce" w="1020" h="350" />
+ <Image src="actions/salesforce/salesforce-setting" alt="Salesforce" w="1020" h="350" />
+ <Image src="actions/salesforce/select-scopes" alt="Salesforce" w="1020" h="350" />
+
+
+4. After completing these steps click on `Manage Consumer Details` button to see the client id and secret.
+
+ <Image src="actions/salesforce/consumer-details" alt="Salesforce" w="1020" h="350" />
+
+
+5.	Then copy the Client ID and Client Secret and paste it into integration setting. Then click on the Authorize button (wait for a few seconds). After the successful authorization click on the Next button
+ <Image src="actions/salesforce/consumer-key-and-secret" alt="Salesforce" w="1020" h="350" />
+ <Image src="actions/salesforce/authorize" alt="Salesforce" w="1020" h="350" />
+
+
+6. Select a Module from the drop-down list. 
+    #### ✅ The available Action in Salesforce
+    👉 Create Contact   
+    👉 Create lead   
+    👉 Create Account   
+    👉 Create Campaign   
+    👉 Add campaign member   
+    👉 Create Task   
+    👉 Opportunity Create   
+    👉 Event Create   
+    👉 Create Case   
+
+  <Image src="actions/salesforce/select-action" alt="Salesforce" w="1020" h="350" />
+
+
+7.	Map all the mandatory fields to the corresponding fields in your form/task. After mapping the desired field click on Next.
+  <Image src="actions/salesforce/fieldmapping" alt="Salesforce" w="1020" h="350" />
+
+
+8. Now save the integration by clicking the "Finish & Save." Button
+
+ <Image src="actions/salesforce/finish-and-save" alt="Salesforce" w="1020" h="350" />
+
+9.	Bit Integrations have an option in every integration called "Timeline," where you can check integration success or error status.
+ <Image src="actions/salesforce/timeline" alt="Salesforce" w="1020" h="350" />
+ <Image src="actions/salesforce/sucess-or-error-status" alt="Salesforce" w="1020" h="350" />
+
+10.	 Also, you can Edit Clone Delete the integration.
+ <Image src="actions/salesforce/edit-clone-delete" alt="Salesforce" w="1020" h="350" />
+
+
+<Feedback/>

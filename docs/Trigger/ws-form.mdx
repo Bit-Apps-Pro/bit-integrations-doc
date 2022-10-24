@@ -1,0 +1,40 @@
+---
+id: wsform
+title: Select WS Form As A trigger
+sidebar_label: WS Form
+slug: /trigger/trigger-wsform
+---
+
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+
+> **Note: WS Form is available on the free and pro version.**
+
+1. At First, Open your Bit Integration Dashboard and create an integrations by clicking the **“Create Integration”** button.
+
+   <Image src="trigger/ws-form/_create-integrations" alt="WS-Form"   w="1020" h="350" />
+
+2. Before selecting the form, you must make a few sets up in your form. Now go to Ws Form and create a form or select an exacting form that you have already created. <br/>Navigate to `Actions` and create an action by clicking plus icon. In the `Action` section, select **Run WordPress Hook**. Also, Select Action Type: **Action**. <br/>In The `Hook Tag` field, copy the hook from the note and paste it into the hook tag field in the hook tag field.<br/>**Bit Integration Hook Tag:** **ws_form_action_for_bi** 
+  <Video src="ws-form-action-hook" alt="Ws-Form" w="1020" h="350" />
+
+
+3. Now select the **WS Form** that you want to integrate with Bit Integrations **Actions**.
+
+  > **Note:** You must have a WS Form Pro license to integrate WS Forms with Bit Integration Actions. otherwise, it shows WS form is not installed or activated when you select Ws form as a trigger.
+
+  <Image src="trigger/ws-form/_select-trigger" alt="WS-Form"  w="1020"  h="350" />
+
+4. Select the form from the Drop-Down list that you want to integrate with Bit Integrations **Actions**. And click on the **“Next”** button.
+
+   <Image src="trigger/ws-form/_ws-form" alt="WS-Form" w="1020"  h="350" />
+
+> **Note: You must install the `WS Form Pro` plugin to set Integrations. Otherwise, the trigger will not work.**
+
+:::info
+  After completing these steps, the **Actions** list will appear, and select the action you want to integrate with your selected **Trigger**. Now you have to **authorize** the Action. To know more about authorization, Go to **Actions** from the left side menu and select the Action you want to integrate with your chosen trigger.
+:::
+
+
+<Feedback/>

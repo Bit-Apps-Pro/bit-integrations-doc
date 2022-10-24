@@ -1,0 +1,42 @@
+---
+id: jetformbuilder
+title: Select JetFormBuilder As A trigger
+sidebar_label: JetFormBuilder
+slug: /trigger/jetformbuilder
+---
+
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: JetFormBuilder is available on the free and pro version.**
+
+1. At First, Open your Bit Integration Dashboard and create an integrations by clicking the **_“Create Integration”_** button.
+
+   <Image src="trigger/_create-integrations" alt="JetFormBuilder" w="1020" h="350" />
+
+2. Now select the **JetFormBuilder** that you want to integrate with Bit Integrations **Actions**.
+
+   <Image src="trigger/jetformbuilder/select-trigger" alt="JetFormBuilder" w="1020" h="350" />
+
+3.	Bit integrations will automatically generate a **webhook URL** & you have to copy that link. And click on the **`fetch`** button.   
+   * Now navigate to **JetFormBuilder** 
+   * `Edit Form` (The form that you will integrate) 
+   * Setting (Jetform tab) 
+   * go to post submission action 
+   * Create a new `action` 
+   * select call webhook (from the drop-down list) 
+   * click on `edit` action icon. Paste the copied Webhook URL into the URL field and click the `save` button. 
+   * Submit something to your Jet form. 
+   <Video src="jetformbuilder-fetch-data" alt="JetFormBuilder" w="1020" h="350" />
+4. Then go to the Bit integration page and click on the set action button.
+   <Image src="trigger/jetformbuilder/click-set-action" alt="JetFormBuilder" w="1020" h="350" />
+
+
+<br/>
+
+:::info
+  After completing these steps, the **Actions** list will appear, and select the action you want to integrate with your selected **Trigger**. Now you have to **authorize** the Action. To know more about authorization, Go to **Actions** from the left side menu and select the Action you want to integrate with your chosen trigger.
+:::
+
+<Feedback/>

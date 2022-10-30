@@ -90,6 +90,7 @@ module.exports = {
         "actions/registration",
         "actions/restrict-content",
         "actions/salesforce",
+        "actions/selzy",
         "actions/sendfox",
         "actions/sendinblue",
         "actions/slack",

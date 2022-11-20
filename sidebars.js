@@ -68,6 +68,7 @@ module.exports = {
         "actions/fluentcrm",
         "actions/freshdesk",
         "actions/gamipress",
+        "actions/get-response",
         "actions/getgist",
         "actions/google-contacts",
         "actions/google-calendar",

@@ -29,30 +29,141 @@ Impress your customers and capture more leads by connecting your WordPress forms
 This plugin works as a ***medium*** between two platforms. We can categorize the form plugins as **Sender** & the 3rd Party applications or other WP plugins as a **Receiver**. Form Integration is a system that allows you to integrate your form with your desired 3rd Party applications with ease. With **Form Integration**, the form submissions are sent directly to the mapped field of other applications. Popular WordPress form plugins are used as sender & CRM tools, Email Marketing tools, Project Management tools, Data collection tools, and Other WordPress plugins are used as receivers.  
 
 
-### ✔ The form Plugin are:
+### ✔ AVAILABLE TRIGGERS ARE:
+- Amelia
+- AffiliateWp
+- Bit Assist
+- Breaver Builder
+- Bricks
+- BuddyBoss
+- Brizy
+- Breakdance
+- Contact Form 7
+- CartFlows
+- Divi
+- Everest Form
+- Elementor
+- eForm
+- Fluent Forms
+- Fluent CRM
+- Fluent Support
+- Formidable
+- Forminator
+- Gravity Forms
+- GamiPress
+- Happy Forms
+- JetForm Builder
+- JetEngine
+- Kali Forms
+- Kadence Blocks Form
+- LearnDash LMS
+- MB Fronted Submission
+- Met Form
+- Memberpress
+- Ninja Forms
+- Piotnet Forms
+- Paid MemberShip Pro
+- Piotnet Addons For Elementor(PAFE)
+- Restrict Content
+- RafflePress
+- User Registration
+- StudioCart
+- SliceWp Affiliate
+- Solid Affiliate
+- Tutor LMS
+- WeForms
+- WP Post
+- WooCommerce
+- WP Courseware
+- WP Forms
+- WP Funnels
+- WS Form
+- Webhook
+ 
+ ### ✔ AVAILABLE ACTIONS ARE:
+- Bit Form
+- AffiliateWp
+- ActiveCampaign
+- Autonami
+- Acumbamail
+- Ant Apps
+- BuddyBoss
+- Constant Contact
+- Dropbox
+- ElasticEmail
+- Encharge
+- Fluent CRM
+- Fluent Support
+- Fresh Desk
+- Getgist
+- Google Sheet
+- Google Calender
+- Google Drive
+- Google Contacts
+- GamiPress
+- Groundhogg
+- GetResponse
+- Hubspot
+- Integrately
+- Integromat
+- Keep (infutionSoft)
+- Klaviyo
+- KonnectzITit
+- Kirim Email
+- LearnDash LMS
+- Mail
+- MailBluster
+- Mailrelay
+- MailerLite
+- Mail Chimp
+- Mail Poet
+- Mautic
+- Moosend
+- Mailercloud
+- Memberpress
+- Mailup
+- Notion
+- N8N
+- OneDrive
+- OmniSend
+- Pabbly
+- Paid MemberShip Pro
+- Pods
+- Post Creation
+- Rapidmail
+- Registration
+- Restrict Content
+- Salesforce
+- SliceWp Affiliate
+- SendinBlue
+- Sendy
+- Senfox
+- SyncSpider
+- Slack
+- Selzy
+- Telegram
+- Tutor LMS
+- Trello
+- Twilio
+- Vbout
+- Web Hooks
+- WhatsApp
+- WooCommerce
+- WP Courseware
+- WishList
+- Zapier
+- Zoho Bigin
+- Zoho CRM
+- Zoho Campaigns
+- Zoho Desk
+- Zoho Flow
+- Zoho Marketing Hub
+- Zoho Recruit
+- Zoom Meeting
+- Zoom Webinar
 
-1.  Bit Form
-2.  WP Form
-    
-3.  Fluent Form
-    
-4.  Contact Form 7
-    
-5.  Gravity Form
-    
-### ✔ 3rd Party applications/ Other WP Plugins
-
-1.  Zoho CRM
-    
-2.  WooCommerce
-    
-3.  Mailchimp
-
-4. Google Sheet
 
 ## ⚡ Key Features:
-
-
 
 1.  Easy integration set up with a few clicks. Don't require any coding skills.
     
@@ -101,230 +212,5 @@ Using the **Bit Integrations** plugin, you can control & manage your customers i
 
 == Changelog ==
 
-> 1.0.0 
-* Initial release
-
-> 1.0.1  
-* Release Date – 2 February 2022
-
-* New Triggers :
-    * WooCommerce
-    * Elementor
-    * Forminator
-    * WS Form
-    * Piotnet Forms
-    * eForm
-    * User Registration
-    * Fluent Forms
-    * Gravity Forms
-    * Ninja Forms
-    * WPForms
-    * Webhook
-* Features:
-    * Integration log auto delete after specified days
-    * Integration clone
-* Fixes :
-    * GoogleSheet MultiSelect, Checkbox & Radio field issue fixed
-    * MailChimp Date field issue fixed
-    * Mail Editing
-    * Updated database table
-    * Webhook issue fixed
-    * Other fixes and improvements
-    * Google sheet MultiSelect, Checkbox & Radio field issue fixed
-    * MailChimp Data field issue fixed
-
-
-> 1.0.2
-* Release Date – 7 February 2022
-
-* New Triggers :
-    * Everest Forms
-
-> 1.0.3
-* Release Date – 4 April 2022
-
-* New Triggers :
-    * Divi
-    * Bricks
-    * Beaver Builder
-    * WP Courseware
-    * Tutor LMS
-    * FluentCRM
-    * StudioCart
-    * HappyForms
-    * Formideble Forms
-    * JetForm
-    * Amelia
-    * KaliForms
-    * WPFunnels
-* Fixes :
-    * WebHook bug fixed (Trigger)
-
-> 1.0.4
-* Release Date – 24 April 2022
-
-* New Actions :
-    * Bit Form
-    * Webhook
-    * Zapier
-    * Integromat
-    * Integrately
-    * Pabbly
-    * SyncSpider
-    * KonnectzIT
-    * Ant Apps
-    * Trello
-* New Triggers :
-    * WP Post
-* Features :
-    * Added search facility for triggers
-* Fixes :
-    * WP Courseware bug fixed (Trigger)
-    * Mail integration edit bug fixed
-
-> 1.0.5
-* Release Date – 30 April 2022
-
-* Features :
-    * Added more theme support for Divi
-* Fixes :
-    * Fluent Form container fields not showing in field map fixed
-
-> 1.0.6
-* Release Date – 14 May 2022
-
-* Fixes :
-    * Webhook data format error issue fixed
-
-> 1.0.7
-* Release Date – 24 May 2022
-
-* New Triggers :
-    * Met Form
-    * Kadence Blocks Form
-    * N8N
-* Fixes :
-    * BitForm edit bug fixed (Action)
-    * Conditional logic error status not added timeline issue fixed
-
-> 1.0.8
-* Release Date – 04 June 2022
-
-* New Triggers :
-    * LearnDash LMS
-* Features :
-    * Specific a product order in wooCommerce trigger
-
-> 1.0.9
-* Release Date – 13 June 2022
-
-* New Actions :
-    * Restrict Content (Pro)
-    * LearnDash LMS (Pro)
-
-> 1.1.0
-* Release Date – 26 June 2022
-
-* New Triggers :
-    * Restrict Content
-    * LearnDash LMS
-    * BuddyBoss
-    * AffiliateWP
-
-
-> 1.1.1
-* Release Date – 28 June 2022
-
-* Fixes :
-    * WooCommerce field are not fetching properly.
-
-> 1.1.2
-* Release Date – 5 July 2022
-
-### **Added**
-#### New Actions :
-    * AffiliateWP(pro)
-    * BuddyBoss(18 type actions added)(pro)  
-#### Added: New smart tag  
-* WordPress Locale Code
-* Post Publish Date
-* Post Modified Date
-* Current User Role
-* Post Author ID
-* Post Author Display Name
-* Post Author Email   <br/><br/>
-### **Fixes**
-* Amelia data are not fetching.  
-#### **Note :**
-* All smart tag available in pro.
-
-> 1.1.3
-* Release Date – 24 July 2022
-
-### **Features**
-#### Trigger
-* WooCommerce
-    * User order status change Specific status.
-    * User subscribe product.
-    * User unsubscribe/cancel product.
-    * user subscription product time expire.
-    * User subscription product status change.
-    * user subscription product trial period end.
-* Post
-    * Added post edit option.
-    * User Registration
-    * User Login.
-    * User reset password.
-    * User delete account.
-### **Fixes** 
-* First name and last name are not visible for field map on FluentCRM issue fixed.
-
-> 1.1.4
-* Release Date – 4 August 2022
-
-### **Add**
-#### Trigger :
-
-* WeForms
-* Piotnet Addon (form)
-
-### **Features**
-
-#### Trigger :
-* Bricks
-    * Show bricks template form.
-* Elementor
-    * Show elementor template form.
-* FluentCRM
-    * Added FluentCRM edit option
-### **Fixes**
-* Tutor Lms edit option loading issue fixed.
-* BuddyBoss issue fixed.
-
-
-> 1.1.5
-* Release Date – 20 August 2022
-
-### **Add**
-#### Trigger :
-
-* Breakdance
-* GamiPress
-
-#### Action :
-
-* Google contacts
-* Kirim Email
-* GamiPress
-
-### **Features**
-
-#### Trigger :
-* Elementor
-    * Show elementor template form.
-#### Action :
-* ActiveCampaign
-    * Default 20 tag show only,now it will show more than 1000+ tag.
-### **Fixes**
-* WPForms Name field simple variation support.
-* Post Creation(trigger) issue fixed.
+Free Changelog: [https://docs.bit-integrations.bitapps.pro/changelog/bit-integrations-changelog-timeline](https://docs.bit-integrations.bitapps.pro/changelog/bit-integrations-changelog-timeline)  
+Pro Changelog: [https://docs.bit-integrations.bitapps.pro/changelog/bit-integrations-pro-version-changelog-timeline](https://docs.bit-integrations.bitapps.pro/changelog/bit-integrations-pro-version-changelog-timeline)

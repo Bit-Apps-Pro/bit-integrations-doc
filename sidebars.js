@@ -83,6 +83,7 @@ module.exports = {
         "actions/mailerlite",
         "actions/mailpoet",
         "actions/mautic",
+        "actions/moosend",
         "actions/onedrive",
         "actions/pods",
         "actions/post-creation",

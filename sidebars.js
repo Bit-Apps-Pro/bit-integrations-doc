@@ -80,6 +80,7 @@ module.exports = {
         "actions/kirimemail",
         "actions/klaviyo",
         "actions/learndash",
+        "actions/mailbluster",
         "actions/mailchimp",
         "actions/mailercloud",
         "actions/mailerlite",

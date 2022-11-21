@@ -81,6 +81,7 @@ module.exports = {
         "actions/klaviyo",
         "actions/learndash",
         "actions/mailchimp",
+        "actions/mailercloud",
         "actions/mailerlite",
         "actions/mailpoet",
         "actions/mautic",

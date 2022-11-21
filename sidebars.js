@@ -96,6 +96,7 @@ module.exports = {
         "actions/selzy",
         "actions/sendfox",
         "actions/sendinblue",
+        "actions/sendy",
         "actions/slack",
         "actions/telegram",
         "actions/trello",

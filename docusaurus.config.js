@@ -45,7 +45,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://downloads.wordpress.org/plugin/bit-integrations.zip',
+          href: 'https://wordpress.org/plugins/bit-integrations',
           label: 'Free Download',
           position: 'right',
           className: 'download-btn'
@@ -96,6 +96,10 @@ module.exports = {
         {
           title: 'More',
           items: [
+            {
+              label: 'Integrations List',
+              to: 'https://www.bitapps.pro/bit-integrations/all-integrations',
+            },
             {
               label: 'Changelog',
               to: 'changelog/bit-integrations-changelog-timeline/',

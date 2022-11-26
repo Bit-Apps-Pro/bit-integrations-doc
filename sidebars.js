@@ -90,6 +90,7 @@ module.exports = {
         "actions/mailup",
         "actions/mautic",
         "actions/moosend",
+        "actions/omni-send",
         "actions/onedrive",
         "actions/pods",
         "actions/post-creation",

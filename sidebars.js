@@ -60,6 +60,7 @@ module.exports = {
         "actions/autonami",
         "actions/bitform",
         "actions/buddyboss",
+        "actions/constantcontact",
         "actions/dropbox",
         "actions/elastic-email",
         "actions/email",

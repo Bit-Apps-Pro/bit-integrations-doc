@@ -1,0 +1,95 @@
+---
+id: constantcontact
+title: Authorization Process With ConstantContact
+sidebar_label:  ConstantContact
+slug: /integrations/constantcontact
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: ConstantContact is only available on the pro version.**
+
+***To integrate with ConstantContact follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select **ConstantContact** from the actions pages
+ <Image src="actions/constantcontact/search-and-select" alt="ConstantContact" w="1020" h="350" />
+
+2. **Integration Name:** Set the proper integration name. Default it's taken 'ConstantContact'.
+ <Image src="actions/constantcontact/default-integration-name" alt="ConstantContact" w="1020" h="350" />
+
+3.	After that, you have to copy the Client Id & Client secret from your ConstantContact account & paste the Client Id & Client secret on the field.    
+**To get the Client Id & Client secret**
+- click on the Constant Contact Application or Goto Constant Contact Application
+- Then create a new application.
+- Input your preferred application name
+- Select (Authorization Code Flow and Implicit Flow) and (Rotating Refresh Tokens or Long Lived Refresh Tokens) then click on create button
+- Then edit the application
+- Copy the Authorized Redirect URIs from integration dashboard and paste it into the Constant Contact application form.
+- Then generate Client Secret from the Constant Contact application
+- Copy the Client Id and Client Secret from Constant Contact application and paste into this authorization form.
+- Finally, click **`Authorize`** button.
+
+ <Image src="actions/constantcontact/click-link" alt="ConstantContact" w="1020" h="350" />
+ <Image src="actions/constantcontact/visit-api-console" alt="ConstantContact" w="1020" h="350" />
+ <Image src="actions/constantcontact/copy-api" alt="ConstantContact" w="1020" h="350" />
+ <Image src="actions/constantcontact/authorize" alt="ConstantContact" w="1020" h="350" />
+
+
+4. Click on **`Next`** to set up the other integration settings ahead.
+ <Image src="actions/constantcontact/authorize-after" alt="ConstantContact" w="1020" h="350" />
+
+## Source Type
+### Contact
+5.	After completing the authorization process, Select the `Source` of your choices from the drop-down options.
+ <Image src="actions/constantcontact/select-source" alt="ConstantContact" w="1020" h="350" />
+
+6.	You will find the Map Field option. You have to map all the necessary fields with the related ConstantContact field. By default, **`Email`** field of ConstantContact will be available. You can also send custom values by mapping your required field. then, click on the **`Next`** button to move forward for further settings.
+
+ <Image src="actions/constantcontact/constantcontact-field-map" alt="ConstantContact" w="1020" h="350" />
+
+7. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/constantcontact/finish-save" alt="ConstantContact" w="1020" h="350" />
+
+
+### Account
+5.	After completing the authorization process, Select the `Source` of your choices from the drop-down options.
+ <Image src="actions/constantcontact/select-source-account" alt="ConstantContact" w="1020" h="350" />
+
+6.	You will find the Map Field option. You have to map all the necessary fields with the related ConstantContact field. By default, **`Email`** field of ConstantContact will be available. You can also send custom values by mapping your required field. then, click on the **`Next`** button to move forward for further settings.
+
+ <Image src="actions/constantcontact/constantcontact-field-map-account" alt="ConstantContact" w="1020" h="350" />
+
+7. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/constantcontact/finish-save" alt="ConstantContact" w="1020" h="350" />
+
+
+## Actions 
+- **Add Address fields:** Also, you can enable the action Add Address Field to add the address of the contact. The addresses fields of ConstantContact are fixed – `street`, `City`, `State`, `postal code`, & `country`. These fields are required for the ConstantContact contact.
+ <Image src="actions/constantcontact/add-address-field" alt="ConstantContact" w="1020" h="350" />
+
+- **Add Phone field:** Also, you can enable the action Add phone Field to add the phone of the contact. This field are required for the ConstantContact contact.
+ <Image src="actions/constantcontact/add-phone-field" alt="ConstantContact" w="1020" h="350" />
+
+- **Add Tags:** You can enable the action Tags Field to add the tags of the Contact or Account. In addition, you can add multiple tags from custom. If you don't see any tag. Click on the refresh button.
+ <Image src="actions/constantcontact/add-tag" alt="ConstantContact" w="1020" h="350" />
+
+- **Lists:** You can enable the action Lists Field to add the lists of the contact and account. In addition, you can add multiple lists from custom. If you don't see any lists. Click on the refresh button.
+ <Image src="actions/constantcontact/add-list" alt="ConstantContact" w="1020" h="350" />
+
+
+8. We have an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/constantcontact/constantcontact-timeline" alt="ConstantContact" w="1020" h="350" />
+ <Image src="actions/constantcontact/constantcontact-log" alt="ConstantContact" w="1020" h="350" />
+
+9. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/constantcontact/constantcontact-option" alt="ConstantContact" w="1020" h="350" />
+
+
+<Feedback/>

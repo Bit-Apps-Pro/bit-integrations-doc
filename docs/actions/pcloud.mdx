@@ -1,0 +1,61 @@
+---
+id: pcloud
+title: Authorization Process With PCloud
+sidebar_label:  PCloud
+slug: /integrations/pcloud
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: PCloud is only available on the pro version.**
+
+***To integrate with PCloud follow, the below steps.***
+
+## Process of Authorization and Integration
+
+1.	Search & Select **PCloud** from the actions pages
+ <Image src="actions/pcloud/search-and-select-pcloud" alt="PCloud" w="1020" h="350" />
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken ‘Dropbox Integration’.
+ <Image src="actions/pcloud/pcloud-integration-name" alt="PCloud" w="1020" h="350" />
+
+3.	After that, you have to copy the Client Id & Client secret from your PCloud account & paste the **Client Id** & **Client secret** on the field.  
+To get the client Id & Client Secret, 
+- Click on `PCloud API Apps`. 
+- on New App to create new applications.
+- Input Application Name, **`Folder Access`** – All Folders, **`Write access`** – Full
+- Then click on Add New App
+- your Integrations and go to settings and input Redirect URIs, then save the application
+- copy the client Id and Client secret, then paste them into the integration’s dashboard. And Click on the `Authorize` button.
+     <Video src="pcloud-api" alt="PCloud" w="1020" h="350" />
+
+
+4.	Click on `Next` to set up the other integration settings ahead.
+ <Image src="actions/pcloud/pcloud-authorize-after-next" alt="PCloud" w="1020" h="350" />
+
+
+5.	After completing the authorization process, you will find the Map Field option. Select the `folder Name` from the Drop-Down list that you want to send the files to the folder.
+ <Image src="actions/pcloud/pcloud-folder-select" alt="PCloud" w="1020" h="350" />
+
+:::info
+You can only upload the files (image, audio, video, docs, pdf, etc.)
+:::
+
+## Actions
+6.	Also, if you want to delete the uploaded file from WordPress, enable the `'Delete File From WordPress'` option.
+
+ <Image src="actions/pcloud/delete-file-form-wordpress" alt="PCloud" w="1020" h="350" />
+
+
+7.	Now click on `Next` button. And save the integration by clicking the `Finish & Save` Button.
+ <Image src="actions/pcloud/integrations-finish-and-save" alt="PCloud" w="1020" h="350" />
+
+8.	We have an option in every integration `Timeline` where you can check integration success or error status.
+ <Image src="actions/pcloud/integrations-timeline-success-and-error" alt="PCloud" w="1020" h="350" />
+ <Image src="actions/pcloud/timeline-success-and-error" alt="PCloud" w="1020" h="350" />
+
+9.	Also, you can `Edit` `Clone` and `Delete` the integration.
+ <Image src="actions/pcloud/integrations-edit-clone-delete" alt="PCloud" w="1020" h="350" />
+
+<Feedback/>

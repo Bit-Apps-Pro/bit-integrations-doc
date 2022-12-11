@@ -92,6 +92,7 @@ module.exports = {
         "actions/moosend",
         "actions/omni-send",
         "actions/onedrive",
+        "actions/pcloud",
         "actions/pods",
         "actions/post-creation",
         "actions/rapidmail",

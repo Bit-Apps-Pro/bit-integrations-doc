@@ -21,35 +21,52 @@ import Feedback from "@site/src/components/Feedback";
 2.	 **Integration Name:** Set the proper integration name. Default it's taken **WhatsApp**
    <Image src="actions/whatsapp/integration-name" alt="WhatsApp" w="1020" h="350" />
 
-3.	**Phone number ID & WhatsApp Business Account ID:** For Number ID & Account ID, you have to visit the [**Facebook Developer console**](https://developers.facebook.com/apps/). If you already have a Number ID & Account ID before, copy these two field. If you don’t have any, then you have to create.
-   <Image src="actions/whatsapp/number-and-account-id" alt="WhatsApp" w="1020" h="350" />
+### Create a Business app
 
-4. **Phone number ID & WhatsApp Business Account ID:** To get Number ID and Account ID, you have to visit [**Facebook Developer console**](https://developers.facebook.com/) and Navigate to My Apps. And Create an App. On the top-right corner, you will find Create App option.
+1. You’ll need to create a Business app from  [Facebook Developer Console](https://developers.facebook.com/apps/) to access Facebook services, including WhatsApp.
    <Image src="actions/whatsapp/navigate-myapps" alt="WhatsApp" w="1020" h="350" />
    <Image src="actions/whatsapp/create-app" alt="WhatsApp" w="1020" h="350" />
 
-
-5.	Then you have to select the App type **Business** And click Next to proceed. Also you have to provide basic information to create an App.
+2.	Then you have to select the App type **Business** And click Next to proceed. Also you have to provide basic information to create an App.
  <ol>
    <li> Display name: Please provide the proper App name of your preference. </li>
    <li> App contact email: By default it will take your login email address. This  email is used to communicate with you about potential policy violations and recover an app if it has been deleted.</li>
   <li>
-   Business Account: If you have a Business account, then you can select or leave it blank; this is optional.
+   Business Account: If you have a Business account, then you can select or leave it blank.
    </li>
  </ol>
    <Image src="actions/whatsapp/selest-app-type" alt="WhatsApp" w="1020" h="350" />
    <Image src="actions/whatsapp/basic-information" alt="WhatsApp" w="1020" h="350" />
    <Image src="actions/whatsapp/confirm-password" alt="WhatsApp" w="1020" h="350" />
 
-6.	After completing these steps you have to add product which is **WhatsApp** in your app. To Add WhatsApp Click on **`SetUp`** button.
+3.	After completing these steps you have to add product which is **WhatsApp** in your app. To Add WhatsApp Click on **`SetUp`** button.
    <Image src="actions/whatsapp/add-whatsapp-as-app" alt="WhatsApp" w="1020" h="350" />
    <Image src="actions/whatsapp/get-stared" alt="WhatsApp" w="1020" h="250" />
 
-7.	Now copy the Phone number ID & WhatsApp Business Account ID and paste it into integration setting.
-   <Image src="actions/whatsapp/number-and-account-id" alt="WhatsApp" w="1020" h="250" />
+
+### Add a phone number
+
+To start sending messages to any WhatsApp number, add a phone number.
+
+**Please follow the below steps to set up a phone number**
+1. On your Meta Business app, in the left menu, click **WhatsApp > Getting Started**.
+2. Next to Step 5: Add a phone number, click **Add phone number**.
+3. Fill in your business information.  Then click **Next**.
+   <Image src="actions/whatsapp/add-phone-number" alt="WhatsApp" w="1020" h="250" />
+
+4. Enter a phone number to use with WhatsApp. You will need to register a number that’s not already associated with a WhatsApp account. If you want to use a number that’s already associated with a WhatsApp account, [Learn how to use a number that’s already on WhatsApp.](https://developers.facebook.com/docs/whatsapp/cloud-api/get-started/migrate-existing-whatsapp-number-to-a-business-account)
+
+5. Click **Next** to verify your number via text or phone call. It will take few minutes to verify the number.
+   <Image src="actions/whatsapp/add-number" alt="WhatsApp" w="1020" h="250" />
+
+
+### Phone number ID, WhatsApp Business Account ID & Access Token
+
+1.	**Phone number ID & WhatsApp Business Account ID:** On your Meta Business app, in the left menu, click **WhatsApp > Getting Started**. Now copy the Phone number ID & WhatsApp Business Account ID and paste it into integration setting.
+   <Image src="actions/whatsapp/number-and-account-id" alt="WhatsApp" w="1020" h="350" />
    <Image src="actions/whatsapp/paste-number-and-account-id" alt="WhatsApp" w="1020" h="250" />
 
-8.	**Access Token:** To get Access Token open your App that you have just created on your Facebook Developer Console. But this is a Temporary Access Token; it will be expired every 24 hours and if the Access Token will expire then the integration will not work. So please follow the steps below to create a Permanent Access Token.
+2.	**Access Token:** To get Access Token open your App that you have just created on your Facebook Developer Console. But this is a Temporary Access Token; it will be expired every 24 hours and if the Access Token will expire then the integration will not work. So please follow the steps below to create a Permanent Access Token.
    <Image src="actions/whatsapp/temporary-access-token" alt="WhatsApp" w="1020" h="250" />
 
 
@@ -85,12 +102,14 @@ button. Then click **`I Accept`** and then **`Done`**
 
 ### Integration Settings
 
-1.	**Message Type:** Now select the Message Type from drop-down option. Bit Integrations have two option respectively **Text** and **Template**
+<!-- Message Type: Now select the Message Type from drop-down option. Bit Integrations have two option respectively Text and Template 
 
  **A. Text:** By selecting this option, you can create the message. In addition, Bit Integration has a text editor option in WhatsApp integration here you can type your message to send [only plan text] and also can use the form field/task field in the editor. You need to map the field before typing the message
-   <Image src="actions/whatsapp/message-type-text" alt="WhatsApp" w="1020" h="250" />
+   <Image src="actions/whatsapp/message-type-text" alt="WhatsApp" w="1020" h="250" /> -->
 
- **B. Template:** By selecting this option, You can send message, that you have already created. Just copy the template name paste it into Template option in integrations setting. You need to map the field before put the template name.
+**Message Type:** Now select the Message Type from drop-down option which is Template.
+
+ **Template:** You need to create message templates inside the cloud API platform. The message templates are predefined message structures that you need to create and get them approved from Facebook, and after that, you can use these templates to send messages. Just copy the template name paste it into Template option in integrations setting. 
    <Image src="actions/whatsapp/message-type-template" alt="WhatsApp" w="1020" h="250" />
 
 2.	**Field Mapping:** Map the form/task field with WhatsApp Phone field. Form / Task must be phone field.

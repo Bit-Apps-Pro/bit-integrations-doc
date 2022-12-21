@@ -102,6 +102,7 @@ module.exports = {
         "actions/salesforce",
         "actions/selzy",
         "actions/sendfox",
+        "actions/sendgrid",
         "actions/sendinblue",
         "actions/sendy",
         "actions/slack",

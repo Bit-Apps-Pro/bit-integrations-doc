@@ -85,6 +85,7 @@ module.exports = {
         "actions/mailchimp",
         "actions/mailercloud",
         "actions/mailerlite",
+        "actions/mailjet",
         "actions/mailpoet",
         "actions/mailrelay",
         "actions/mailup",

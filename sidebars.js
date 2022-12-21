@@ -64,6 +64,7 @@ module.exports = {
         "actions/dropbox",
         "actions/elastic-email",
         "actions/email",
+        "actions/emailoctopus",
         "actions/encharge",
         "actions/fluent-support",
         "actions/fluentcrm",

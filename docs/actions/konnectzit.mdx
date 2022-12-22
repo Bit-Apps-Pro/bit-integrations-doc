@@ -1,0 +1,56 @@
+---
+id: konnectzit
+title:  Bit Integrations with Konnectzit 
+sidebar_label: KonnectzIT
+slug: /integrations/konnectzit
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+When users submit/complete the form/task, you can send those data to Konnectzit and then you can send it to others.
+
+We are using Fluent Form as a trigger when someone submits the form, it sends data to Konnectzit and sends it to Google Sheets.
+
+**To integrate with Konnectzit follow, the below steps.**
+
+
+1. Search & Select **KonnectzIT** from the actions pages
+  <Image  src="actions/konnectzit/konnectzit" alt="KonnectzIT" w="1020" h="350" />
+
+2. Integration Name: Set the proper integration name. Default it's taken “konnectzIT Web Hooks”.
+  <Image src="actions/konnectzit/integration-name" alt="KonnectzIT" w="1020"  h="350" />
+
+3. First create a Create Konnectz and select Webhook. Copy the incoming webhook URL from KonnectzIT and paste it into the Link field. And select the **Post** Method.
+  <Image src="actions/konnectzit/callback-url" alt="KonnectzIT" w="1020"  h="350" />
+  <Image src="actions/konnectzit/data-send-method" alt="KonnectzIT" w="1020"  h="350" />
+
+4. Three types of data requests can be sent through Bit Integrations on KonnectzIT Action. **"Params," "Headers," and "Body"**
+  <Image src="actions/konnectzit/params-header-body" alt="KonnectzIT" w="1020"  h="350" />
+
+5. Select **Body** to send data requests on other platforms.
+6. Check **Send All Data** if you want to send all information, or you can select the field of your choice. Select **application/json** from Add Request Payload option
+ <Image src="actions/konnectzit/send-all-data" alt="KonnectzIT" w="1020"  h="350" />
+ <Image src="actions/konnectzit/request-paylood" alt="KonnectzIT" w="1020"  h="350" />
+
+7. Now click on the **Next** button and finally click on **Finish & Save**. Button to save the integration process.
+ <Image src="actions/konnectzit/next" alt="KonnectzIT" w="1020"  h="350" />
+ <Image src="actions/konnectzit/finish-save" alt="KonnectzIT" w="1020"  h="350" />
+
+8. Now enable Capture Webhook Response from KonnectzIT to capture the data and submit the form/trigger that you selected.
+ <Image src="actions/konnectzit/capture-data" alt="KonnectzIT" w="1020"  h="350" />
+
+9. Map the webhook data with Google Sheets Header after successfully capturing the data.
+ <Image src="actions/konnectzit/map-data" alt="KonnectzIT" w="1020"  h="350" />
+
+10. Now publish the integration that you configured on KonnectzIT and submit the form and chek Google Sheets. 
+ <Image src="actions/konnectzit/google-sheets" alt="KonnectzIT" w="1020"  h="350" />
+
+11. Bit Integrations has an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/konnectzit/timeiline" alt="KonnectzIT" w="1020" h="350" />
+ <Image src="actions/konnectzit/sucess-error-status" alt="KonnectzIT" w="1020" h="350" />
+
+12. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/konnectzit/edit-clone-delete" alt="KonnectzIT" w="1020" h="350" />
+<Feedback/>

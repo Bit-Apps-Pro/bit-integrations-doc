@@ -11,6 +11,7 @@ module.exports = {
    "conditional-logic",
     {
       Trigger: [
+        "triggers/affiliate",
         "triggers/amelia",
         "triggers/beaver-builder",
         "triggers/breakdance",

@@ -114,6 +114,7 @@ module.exports = {
         "actions/tutor-lms",
         "actions/twilio",
         "actions/vbout",
+        "actions/webhooks",
         "actions/whatsapp",
         "actions/wishlist",
         "actions/woocommerce",

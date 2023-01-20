@@ -82,6 +82,7 @@ module.exports = {
         "actions/keap",
         "actions/kirimemail",
         "actions/klaviyo",
+        "actions/konnectzit",
         "actions/learndash",
         "actions/mailbluster",
         "actions/mailchimp",

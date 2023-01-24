@@ -1,0 +1,62 @@
+---
+id: zoho-flow
+title:  Bit Integrations with Zoho Flow
+sidebar_label: Zoho Flow
+slug: /integrations/zoho-flow
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+When users submit/complete the form/task, you can send those data to webhook and send it to other platforms. We will use Zoho Flow here to receive webhook data.
+
+We are using user registration (create new user) as a trigger when someone register the website, it sends data to Zoho Flow and sends it to Google Sheets.
+
+
+**To integrate with Zoho Flow follow, the below steps.**
+
+
+1. Search & Select **Zoho Flow** from the actions pages
+  <Image  src="actions/zoho-flow/search-and-select" alt="Webhook" w="1020" h="350" />
+
+2. Integration Name: Set the proper integration name. Default it's taken “Web Hooks”.
+  <Image src="actions/zoho-flow/integration-name" alt="Webhook" w="1020"  h="350" />
+
+3.	Create the flow and configure the webhook. Select the payload format, then copy the incoming webhook URL from Zoho Flow. Next, navigate to the Integrations settings, and insert it into the link field. Select the POST option afterward.  
+  <Image src="actions/zoho-flow/callback-url" alt="Webhook" w="1020"  h="350" />
+  <Image src="actions/zoho-flow/data-send-method" alt="Webhook" w="1020"  h="350" />
+
+:::info
+To verify that the webhook is working correctly, click the Test button in the configure tab. Next, navigate to the Integrations settings, complete the webhook configuration within the Bit Integrations, and then initiate the Test webhook.
+:::
+
+4. Three types of data requests can be sent through Bit Integrations on Zoho Flow Action. **"Params," "Headers," and "Body"**
+  <Image src="actions/zoho-flow/params-header-body" alt="Webhook" w="1020"  h="350" />
+
+5. To send all the data in the form. Select **Body** to send data requests on other platforms.
+6. Check **Send All Data** if you want to send all information, or you can select the field of your choice. Select **application/json** from Add Request Payload option
+ <Image src="actions/zoho-flow/send-all-data" alt="Webhook" w="1020"  h="350" />
+ <Image src="actions/zoho-flow/request-payload" alt="Webhook" w="1020"  h="350" />
+
+7. Now click on the **Next** button and finally click on **Finish & Save**. Button to save the integration process.
+ <Image src="actions/zoho-flow/next" alt="Webhook" w="1020"  h="350" />
+ <Image src="actions/zoho-flow/finish-save" alt="Webhook" w="1020"  h="350" />
+
+8.	Now Map the webhook data with Google Sheets Header after successfully capturing the data.
+ <Image src="actions/zoho-flow/map-data" alt="Webhook" w="1020"  h="350" />
+
+9.	Publish the integration configured on Zoho Flow, then submit the registration form or register a demo user and verify the results in Google Sheets.
+ <Image src="actions/zoho-flow/google-sheets" alt="Webhook" w="1020"  h="350" />
+ 
+10.	 At Bit Integrations, the **`Timeline`** of each integration contains a feature allowing you to quickly view the status of your integration, whether it has been successful or encountered an error.
+ <Image src="actions/zoho-flow/timeline" alt="Webhook" w="1020" h="350" />
+ <Image src="actions/zoho-flow/success-error-status" alt="Webhook" w="1020" h="350" />
+ 
+ 
+11.	 You can also easily **`edit`**, **`Clone`**, or **`delete`** the integration.
+ <Image src="actions/zoho-flow/edit-clone-delete" alt="Webhook" w="1020" h="350" />
+
+
+
+ 
+<Feedback/>

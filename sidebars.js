@@ -121,6 +121,7 @@ module.exports = {
         "actions/wp-courseware",
         "actions/zohocrm",
         "actions/zoho-desk",
+        "actions/zoho-flow",
         "actions/zohorecruit",
         "actions/zohobigin",
         "actions/zohocampaign",

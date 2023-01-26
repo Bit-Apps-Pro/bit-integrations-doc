@@ -1,0 +1,48 @@
+---
+id: custom-action
+title: Bit Integrations with Custom Action
+sidebar_label: Custom Action
+slug: /integrations/custom-action
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+
+**This feature helps WordPress developers, who want to run a custom PHP function. Developers can easily run own php function . Follow the step using the custom action.**
+
+> **Note: Custom Action is available on the free and pro version.**
+
+**To integrate with Custom Action follow, the below steps.**
+
+1. Search & Select Custom Action from the actions pages
+ <Image src="actions/custom-action/search-select" alt="Custom Action" w="1020" h="350" />
+
+
+2. write an initial PHP procedure that is not static and has no access modifier.
+ <Image src="actions/custom-action/write-function" alt="Custom Action" w="1020" h="350" />
+
+3. You can access form field values by using the syntax **$trigger[]**, which will then display a drop-down menu with the list of form fields that can be selected.
+
+4. After writing the function, you must invoke the function.
+
+5. Then click the `Validate` button to validate the function. This validation process will check only **syntax errors**, **not logical errors**.
+ <Image src="actions/custom-action/validate-function" alt="Custom Action" w="1020" h="350" />
+
+6. After the validation is complete of function, Click on Next to set up the other integration settings ahead.
+ <Image src="actions/custom-action/validate-and-next" alt="Custom Action" w="1020" h="350" />
+
+7. Now save the integration by clicking the Finish & Save Button
+ <Image src="actions/custom-action/finish-and-save" alt="Custom Action" w="1020" h="350" />
+
+
+8. At Bit Integrations, the `Timeline` of each integration contains a feature allowing you to quickly view the status of your integration, whether it has been successful or encountered an error.
+ <Image src="actions/custom-action/timeline-log" alt="Custom Action" w="1020" h="350" />
+
+9. You can also easily `edit`, `Clone`, or `delete` the integration.
+ <Image src="actions/custom-action/integration-option" alt="Custom Action" w="1020" h="350" />
+
+
+**Congratulations, your integration process has been completed successfully. Once the trigger is executed, the function will run successfully.**
+
+<Feedback/>

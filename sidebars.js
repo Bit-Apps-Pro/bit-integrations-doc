@@ -62,6 +62,7 @@ module.exports = {
         "actions/bitform",
         "actions/buddyboss",
         "actions/constantcontact",
+        "actions/custom-action",
         "actions/dropbox",
         "actions/elastic-email",
         "actions/email",

@@ -30,6 +30,7 @@ module.exports = {
         "triggers/fluent-crm",
         "triggers/fluent-form",
         "triggers/fluent-support",
+        "triggers/formcraft",
         "triggers/formidable-forms",
         "triggers/forminator",
         "triggers/gamipress",

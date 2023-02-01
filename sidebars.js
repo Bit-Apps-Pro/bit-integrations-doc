@@ -23,6 +23,7 @@ module.exports = {
         "triggers/cart-flow",
         "triggers/contact-form7",
         "triggers/divi",
+        "triggers/easy-digital-downloads",
         "triggers/eform",
         "triggers/elementor-form",
         "triggers/everest-forms",

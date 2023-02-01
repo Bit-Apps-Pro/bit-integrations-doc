@@ -34,6 +34,7 @@ module.exports = {
         "triggers/formidable-forms",
         "triggers/forminator",
         "triggers/gamipress",
+        "triggers/givewp",
         "triggers/gravity-forms",
         "triggers/groundhogg",
         "triggers/happy-forms",

@@ -14,6 +14,7 @@ module.exports = {
         "triggers/affiliate",
         "triggers/amelia",
         "triggers/beaver-builder",
+        "triggers/bit-assist",
         "triggers/breakdance",
         "triggers/bricks",
         "triggers/brizy",

@@ -1,0 +1,114 @@
+---
+id: givewp
+title: Select GiveWP As A trigger
+sidebar_label: GiveWP
+slug: /trigger/givewp
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: GiveWP is available on the free and pro version.**
+
+1. At First, Open your Bit Integration Dashboard and create an integrations by clicking the **_“Create Integration”_** button.
+
+   <Image src="trigger/_create-integrations" alt="GiveWP" w="1020" h="350" />
+
+2. Now select the **GiveWP** that you want to integrate with Bit Integrations **Actions**.
+
+   <Image src="trigger/givewp/select-trigger" alt="GiveWP" w="1020" h="350" />
+
+3. Select the form from the Drop-Down list that you want to integrate with Bit Integrations **Actions**. And click on the **“Next”** button.
+
+   <Image src="trigger/givewp/select-form-or-task-name" alt="GiveWP" w="1020" h="350"/>
+   
+
+#### ✅ The available task in GiveWP
+
+<details>
+      <summary>
+       <b> A user makes donation via from </b>
+      </summary>
+      <div>
+        This integration will be triggered when the user donates via the form. You can set a specific form or any form. <br/> 
+         <b>For example,</b> when the user donates via the form, you can use this task to send the user, form and other details to <a href="https://docs.bit-integrations.bitapps.pro/integrations/google-sheet">Google Sheets</a>, <a href="https://docs.bit-integrations.bitapps.pro/integrations/wpcf7-mailchimp">Mailchimp</a>, CRM, Email marketing tools, and other third-party platforms.<br/><br/>
+         <b>✅ Available task fields</b>
+         <ul>
+           <li>Title</li>
+            <li>First Name</li>
+            <li>Last Name</li>
+            <li>Email</li>
+            <li>Donar ID</li>
+            <li>Donation Amount</li>
+            <li>Currency</li>
+            <li>Comment</li>
+            <li>Address 1</li>
+            <li>Address 2</li>
+            <li>City</li>
+            <li>State</li>
+            <li>Zip</li>
+            <li>Country</li>
+            <li>Give Form ID</li>
+            <li>Give Form Title</li>
+            <li>Give Price ID</li>
+            <li>Price</li>
+         </ul>
+      </div>
+</details>
+
+<details>
+      <summary>
+       <b>A user cancels a recurring donation via from </b>
+      </summary>
+      <div>
+        This integration will be triggered when the user cancels a recurring donation via the form. You can set a specific form or any form.<br/> 
+         <b>For example,</b> when the user cancels a recurring donation via the form, you can use this task to send the user, subscription and other details to <a href="https://docs.bit-integrations.bitapps.pro/integrations/google-sheet">Google Sheets</a>, <a href="https://docs.bit-integrations.bitapps.pro/integrations/wpcf7-mailchimp">Mailchimp</a>, CRM, Email marketing tools, and other third-party platforms.<br/><br/>
+         <b>✅ Available task fields</b>
+         <ul>
+           <li>Subscription ID</li>
+            <li>Give Form ID</li>
+            <li>Amount</li>
+            <li>Donor</li>
+            <li>User ID</li>
+            <li>First Name</li>
+            <li>Last Name</li>
+            <li>Nick Name</li>
+            <li>Avatar URL</li>
+            <li>Email</li>
+         </ul>
+      </div>
+</details>
+
+<details>
+      <summary>
+       <b>User continues recurring donation</b>
+      </summary>
+      <div>
+       This integration will be triggered when the user continues recurring donations.<br/> 
+         <b>For example,</b> when the user continues recurring donations, you can use this task to send the user, recurring amount, and other details to <a href="https://docs.bit-integrations.bitapps.pro/integrations/google-sheet">Google Sheets</a>, <a href="https://docs.bit-integrations.bitapps.pro/integrations/wpcf7-mailchimp">Mailchimp</a>, CRM, Email marketing tools, and other third-party platforms.<br/><br/>
+         <b>✅ Available task fields</b>
+         <ul>
+           <li>Give Form ID</li>
+            <li>Recurring Amount</li>
+            <li>Total payment</li>
+            <li>Donor</li>
+            <li>User ID</li>
+            <li>First Name</li>
+            <li>Last Name</li>
+            <li>Nick Name</li>
+            <li>Avatar URL</li>
+            <li>Email</li>
+         </ul>
+      </div>
+</details>
+
+
+
+
+<br/>
+
+:::info
+  After completing these steps, the **Actions** list will appear, and select the action you want to integrate with your selected **Trigger**. Now you have to **authorize** the Action. To know more about authorization, Go to **Actions** from the left side menu and select the Action you want to integrate with your chosen trigger.
+:::
+
+<Feedback/>

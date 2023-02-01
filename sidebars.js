@@ -20,6 +20,7 @@ module.exports = {
         "triggers/bricks",
         "triggers/brizy",
         "triggers/buddyboss",
+        "triggers/cart-flow",
         "triggers/contact-form7",
         "triggers/divi",
         "triggers/eform",

@@ -47,6 +47,7 @@ module.exports = {
         "triggers/memberpress",
         "triggers/met-form",
         "triggers/ninja-forms",
+        "triggers/paid-membership-pro",
         "triggers/piotnet-addon-for-elementor",
         "triggers/piotnet-forms",
         "triggers/rafflepress",

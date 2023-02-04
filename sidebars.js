@@ -51,6 +51,7 @@ module.exports = {
         "triggers/restrict-content",
         "triggers/solid-affiliate",
         "triggers/studiocart",
+        "triggers/surecart",
         "triggers/tripetto",
         "triggers/tutor-lms",
         "triggers/user-registration",

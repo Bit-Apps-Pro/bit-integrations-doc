@@ -42,6 +42,7 @@ module.exports = {
         "triggers/kadence-blocks-form",
         "triggers/kali-forms",
         "triggers/learndash",
+        "triggers/lifter-lms",
         "triggers/mb-frontend-submission",
         "triggers/met-form",
         "triggers/ninja-forms",

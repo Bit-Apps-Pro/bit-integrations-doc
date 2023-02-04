@@ -48,6 +48,7 @@ module.exports = {
         "triggers/piotnet-addon-for-elementor",
         "triggers/piotnet-forms",
         "triggers/restrict-content",
+        "triggers/solid-affiliate",
         "triggers/studiocart",
         "triggers/tutor-lms",
         "triggers/user-registration",

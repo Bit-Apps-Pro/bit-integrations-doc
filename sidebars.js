@@ -44,6 +44,7 @@ module.exports = {
         "triggers/learndash",
         "triggers/lifter-lms",
         "triggers/mb-frontend-submission",
+        "triggers/memberpress",
         "triggers/met-form",
         "triggers/ninja-forms",
         "triggers/piotnet-addon-for-elementor",

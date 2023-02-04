@@ -47,6 +47,7 @@ module.exports = {
         "triggers/ninja-forms",
         "triggers/piotnet-addon-for-elementor",
         "triggers/piotnet-forms",
+        "triggers/rafflepress",
         "triggers/restrict-content",
         "triggers/solid-affiliate",
         "triggers/studiocart",

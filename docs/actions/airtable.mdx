@@ -1,0 +1,63 @@
+---
+id: airtable
+title: Authorization Process With Airtable
+sidebar_label:  Airtable
+slug: /integrations/airtable
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+> **Note: Airtable is only available on the pro version.**
+
+Airtable is a cloud-based, relational database that combines features of a spreadsheet, database, and project management tool.    
+Bit Integrations now allows users to input data into spreadsheets in rows. Once a form or task is completed via Bit Integrations Trigger, the relevant details will be stored in an Airtable table.
+
+
+***To integrate with Airtable follow, the below steps.***
+
+
+## Process of Authorization and Integration
+
+1.	Search & Select **Airtable** from the actions pages
+ <Image src="actions/airtable/search-and-select" alt="Airtable" w="1020" h="350" />
+
+2. **Integration Name:** Set the proper integration name. Default it's taken 'Airtable'.
+ <Image src="actions/airtable/default-integration-name" alt="Airtable" w="1020" h="350" />
+
+3.	After that, you have to copy the API key from your Airtable account & paste the key on the field.   
+**To get the API key,**  
+-	Click on [Airtable Personal access tokens](https://airtable.com/create/tokens)
+-	Click on `Create Token` to create a new token
+-	Select scopes (`data.records:read`, `data.records:write`, `schema.bases:read`, `schema.bases:write`)
+-	Select workspace `All current and future bases in all current and future workspaces`
+-	Click on `Create token`
+-	Copy the API key and paste into API Key field of your authorization form. And Click on `Authorize` button
+ <Image src="actions/airtable/click-api" alt="Airtable" w="1020" h="350" />
+ <Image src="actions/airtable/visit-api-console" alt="Airtable" w="1020" h="350" />
+ <Image src="actions/airtable/authorize" alt="Airtable" w="1020" h="350" />
+
+
+4. Click on **`Next`** to set up the other integration settings ahead.
+ <Image src="actions/airtable/authorize-after" alt="Airtable" w="1020" h="350" />
+
+5.	After completing the authorization process, Select `Base` and `Table` of your choices from the drop-down options. If you don't see any **Base** and **Table**. Click on the `refresh` button.
+ <Image src="actions/airtable/select-base-table" alt="Airtable" w="1020" h="350" />
+
+6.	You will find the Map Field option. You have to map all the necessary fields with the related Airtable field. You can also send custom values by mapping your required field. If you don't see any fields. Click on the `refresh` button. After mapping the desired fields, click on `Next` button.
+ <Image src="actions/airtable/airtable-field-map" alt="Airtable" w="1020" h="350" />
+
+7. Now save the integration by clicking the **`Finish & Save`** Button
+
+ <Image src="actions/airtable/finish-save" alt="Airtable" w="1020" h="350" />
+
+8. We have an option in every integration **`Timeline`** where you can check integration success or error status.
+ <Image src="actions/airtable/airtable-timeline" alt="Airtable" w="1020" h="350" />
+ <Image src="actions/airtable/airtable-log" alt="Airtable" w="1020" h="350" />
+
+9. Also, you can **`Edit`** **`Clone`** **`Delete`** the integration.
+
+ <Image src="actions/airtable/airtable-option" alt="Airtable" w="1020" h="350" />
+
+
+<Feedback/>

@@ -71,6 +71,7 @@ module.exports = {
       Actions: [
         "actions/activecampaign",
         "actions/acumbamail",
+        "actions/airtable",
         "actions/autonami",
         "actions/bitform",
         "actions/buddyboss",

@@ -74,6 +74,7 @@ module.exports = {
         "actions/acumbamail",
         "actions/airtable",
         "actions/autonami",
+        "actions/benchmark",
         "actions/bitform",
         "actions/buddyboss",
         "actions/constantcontact",

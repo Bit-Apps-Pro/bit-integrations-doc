@@ -123,6 +123,7 @@ module.exports = {
         "actions/sendinblue",
         "actions/sendy",
         "actions/slack",
+        "actions/surecart",
         "actions/telegram",
         "actions/trello",
         "actions/tutor-lms",

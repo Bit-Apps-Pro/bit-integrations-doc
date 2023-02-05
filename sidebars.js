@@ -52,6 +52,7 @@ module.exports = {
         "triggers/piotnet-forms",
         "triggers/rafflepress",
         "triggers/restrict-content",
+        "triggers/slicewp",
         "triggers/solid-affiliate",
         "triggers/studiocart",
         "triggers/surecart",

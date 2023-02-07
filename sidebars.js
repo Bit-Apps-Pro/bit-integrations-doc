@@ -126,6 +126,7 @@ module.exports = {
         "actions/sendinblue",
         "actions/sendy",
         "actions/slack",
+        "actions/slicewp",
         "actions/surecart",
         "actions/telegram",
         "actions/trello",

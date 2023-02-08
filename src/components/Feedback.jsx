@@ -83,7 +83,7 @@ function FeedbackClient() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (!Object.keys(error).length) {
-      form.product = 'bitform'
+      form.product = 'bit-integration-docs'
       form.userId = feedbackDetails.userId
       form.pageSlug = currentUrl
       fetch(FEEDBACK_URL, {

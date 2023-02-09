@@ -111,6 +111,7 @@ module.exports = {
         "actions/mailrelay",
         "actions/mailup",
         "actions/mautic",
+        "actions/memberpress",
         "actions/moosend",
         "actions/omni-send",
         "actions/onedrive",

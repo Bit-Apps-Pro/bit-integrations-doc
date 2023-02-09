@@ -90,6 +90,7 @@ module.exports = {
         "actions/gamipress",
         "actions/get-response",
         "actions/getgist",
+        "actions/givewp",
         "actions/google-contacts",
         "actions/google-calendar",
         "actions/google-drive",

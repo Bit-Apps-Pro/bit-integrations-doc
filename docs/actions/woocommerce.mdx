@@ -96,6 +96,13 @@ import Feedback from "@site/src/components/Feedback";
 3.	Then map the necessary form fields with required **WooCommerce fields** from the Map Fields and Map **Line Items** Fields option. 
  <Image src="actions/woocommerce/order-map-fields" alt="wooCommerce" w="1020" h="350" />
 
+:::note
+To successfully create orders, it is necessary to map **line items** to the order creation process. In the case of using WordPress forms, a **`repeater field`** is mandatory for line items on the form. Therefore, the integration of Woocommerce order creation with a form builder can only be accomplished in forms with a repeater field.
+ 
+You must map line items for other triggers.
+:::
+
+
 4. Go to the `Customer` tab and map the necessary form fields with required WooCommerce fields form the map fields option. And click on the `Next` button to move forward for further settings.
  <Image src="actions/woocommerce/order-customer-map-fields" alt="wooCommerce" w="1020" h="350" />
 

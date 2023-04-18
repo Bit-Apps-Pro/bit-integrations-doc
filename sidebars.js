@@ -120,6 +120,7 @@ module.exports = {
         "actions/onedrive",
         "actions/paid-membership-pro",
         "actions/pcloud",
+        "actions/pipedrive",
         "actions/pods",
         "actions/post-creation",
         "actions/rapidmail",

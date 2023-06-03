@@ -66,6 +66,7 @@ module.exports = {
         "triggers/wpforms",
         "triggers/wp-post",
         "triggers/wsform",
+        "triggers/wp-funnels",
       ],
     },
     {
